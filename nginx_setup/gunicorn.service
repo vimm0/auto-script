@@ -8,6 +8,5 @@ Group=www-data
 WorkingDirectory=/home/vimm0/office/jus-backend
 ExecStart=/home/vimm0/office/envs/jus-backend/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/vimm0/office/jus-backend/jus.sock jus.wsgi:application
 
-
 [Install]
 WantedBy=multi-user.target
