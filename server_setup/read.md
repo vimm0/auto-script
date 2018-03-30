@@ -35,6 +35,7 @@ cd ../app
 ```
 
 ssh username@domainname.com -p portnum
+
 ssh-copy-id username@domainname.com
 ##### Create link between local repo and remote:
 ```
@@ -45,8 +46,6 @@ To push into remote
 ```
 git push server --all
 ```
-
-
 
 ```
 sudo apt-get update
@@ -138,6 +137,7 @@ sudo journalctl -u gunicorn
 sudo fuser -k 443/tcp
 
 circus --> systemctl
+
 chaussette --> gunicorn
 
 #### Reference
