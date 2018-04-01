@@ -142,4 +142,6 @@ chaussette --> gunicorn
 
 #### Reference
 
-[Django, nginx, gunicorn setup](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
+- [GIST 9691385](https://gist.github.com/thomasfr/9691385)
+
+- [Django, nginx, gunicorn setup](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
