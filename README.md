@@ -5,22 +5,22 @@ Initiative for creating easy auto scripts
 Configs are reusable with little or no changes . If you are new to programming or simply interested in learning different scripts, here are some resources you can use.
 
 ### Archlinux
-* [Read Me](/archlinux/Archlinux.md)
+* [Read Me](./archlinux/ArchLinux.md)
 
 ### Aws
-* [Upload File in Aws](/aws/upload_file_aws.py)
+* [Upload File in Aws](./aws/upload_file_aws.py)
 
 ### Bash
-* [Zsh config](/bash/zsh/.zshrc)
-* [Read Me](/bash/readme.md)
+* [Zsh config](./bash/zsh/.zshrc)
+* [Read Me](./bash/readme.md)
 
 ### Python
-* [Thread](/python/thread.py)
-* [Read Me](/python/readme.md)
+* [Thread](./python/thread.py)
+* [Read Me](./python/readme.md)
 
 ### Server
-* [nginx config](/server_setup/nginx_setup/nginx.conf)
-* [gunicorn config](/server_setup/nginx_setup/gunicorn.service)
+* [nginx config](./server_setup/nginx_setup/nginx.conf)
+* [gunicorn config](./server_setup/nginx_setup/gunicorn.service)
 
 ### Reference
 * [How to configure](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
