@@ -10,9 +10,13 @@ Configs are reusable with little or no changes . If you are new to programming o
 ### Aws
 * [Upload File in Aws](./aws/upload_file_aws.py)
 
-### Bash
-* [Zsh config](./bash/zsh/.zshrc)
-* [Read Me](./bash/readme.md)
+### Commandline
+* [Zsh config](./commandline/zsh/.zshrc)
+* [Unix Command](./commandline/unix-command/readme.md)
+* [Read Me](./commandline/readme.md)
+
+### Docker
+* [Read Me](./docker/readme.md)
 
 ### Python
 * [Thread](./python/thread.py)
