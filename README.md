@@ -26,6 +26,9 @@ Configs are reusable with little or no changes . If you are new to programming o
 * [nginx config](./server_setup/nginx_setup/nginx.conf)
 * [gunicorn config](./server_setup/nginx_setup/gunicorn.service)
 
+### Handy Commands
+[Handy Commnads](./HandyCommands)
+
 ### Reference
 * [How to configure](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
 * [How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04#create-a-gunicorn-systemd-service-file)
