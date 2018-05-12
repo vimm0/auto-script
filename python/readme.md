@@ -1,6 +1,8 @@
 # Create Graph django-model
 `sudo pacman -S graphviz`
 
+`pip install pydot`
+
 `./manage.py graph_models -a -g -o my_project_visualized.png`
 
 # Reference
