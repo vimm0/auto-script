@@ -29,6 +29,26 @@ Configs are reusable with little or no changes . If you are new to programming o
 ### Handy Commands
 [Handy Commnads](./HandyCommands)
 
+### Open Source Projects
+
+- export SECRET_KEY = 'secret-key'   # Make sure to not include $ in secret key
+- create user and database in psql (also provide login, superuser permissison)
+
+```
+sudo -i -u postgres
+~$ createuser saleor
+~$ createdb saleor
+OR
+~$ createdb -O saleor saleor
+~$ psql
+ALTER ROLE "asunotest" WITH LOGIN;
+ALTER USER saleor WITH NOSUPERUSER
+```
+
+```./manage.py migrate```
+
+- And npm install [more](https://saleor.readthedocs.io/en/latest/gettingstarted/installation-linux.html#installation-for-linux)
+
 ### Reference
 * [How to configure](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
 * [How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04#create-a-gunicorn-systemd-service-file)
