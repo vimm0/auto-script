@@ -48,6 +48,14 @@ ALTER USER saleor WITH NOSUPERUSER
 ```./manage.py migrate```
 
 - And npm install [more](https://saleor.readthedocs.io/en/latest/gettingstarted/installation-linux.html#installation-for-linux)
+### Android Installation
+- `$ bash <(curl -s archibold.io/install/android)`
+Put in .bashrc or .zshrc
+- `$ export ANDROID_HOME="/opt/android-sdk"`  
+- `$ sudo $ANDROID_HOME/tools/bin/sdkmanager "tools" "platform-tools" "build-tools;25.0.3" "extras;android;m2repository" "extras;google;m2repository"`
+- `$ npm install -g nativescript --unsafe-perm
+
+- [more](https://medium.com/@WebReflection/testing-nativescript-on-arch-linux-a19511cd9521)`
 
 ### Reference
 * [How to configure](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
