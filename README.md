@@ -53,7 +53,7 @@ ALTER USER saleor WITH NOSUPERUSER
 In Archlinux, copy url of snapshot from AUR `https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
 - `wget https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
 - `$ cd genymotion.tar.gz`
-- `$ make -sri`
+- `$ makepkg -sri`
 
 Make sure to install `virtualbox-host-dkms`
 - `$ sudo pacman -S linux-headers`
