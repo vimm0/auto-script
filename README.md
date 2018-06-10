@@ -48,10 +48,23 @@ ALTER USER saleor WITH NOSUPERUSER
 ```./manage.py migrate```
 
 - And npm install [more](https://saleor.readthedocs.io/en/latest/gettingstarted/installation-linux.html#installation-for-linux)
+
+### Genymotion Installation
+In Archlinux, copy url of snapshot from AUR `https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
+- `wget https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
+- `$ cd genymotion.tar.gz`
+- `$ make -sri`
+
+Make sure to install `virtualbox-host-dkms`
+- `$ sudo pacman -S linux-headers`
+- `$ sudo vboxreload`
+
 ### Android Installation
 - `$ bash <(curl -s archibold.io/install/android)`
 Put in .bashrc or .zshrc
 - `$ export ANDROID_HOME="/opt/android-sdk"`  
+- `$ export JAVA_HOME="/usr/lib/jvm/java-8-openjdk/"`
+
 - `$ sudo $ANDROID_HOME/tools/bin/sdkmanager "tools" "platform-tools" "build-tools;25.0.3" "extras;android;m2repository" "extras;google;m2repository"`
 - `$ npm install -g nativescript --unsafe-perm
 
