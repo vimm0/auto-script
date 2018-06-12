@@ -69,6 +69,15 @@ Put in .bashrc or .zshrc
 - `$ npm install -g nativescript --unsafe-perm
 
 - [more](https://medium.com/@WebReflection/testing-nativescript-on-arch-linux-a19511cd9521)`
+### Android Studio
+` yaourt -S android-studio
+yaourt -S android-tools android-udev
+sudo gpasswd -a awecode adbusers
+yaourt -S genymotion
+uname -r
+yaourt linux-headers
+restart
+open android studio`
 
 ### Reference
 * [How to configure](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
