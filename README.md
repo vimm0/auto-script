@@ -70,15 +70,22 @@ Put in .bashrc or .zshrc
 
 - [more](https://medium.com/@WebReflection/testing-nativescript-on-arch-linux-a19511cd9521)`
 ### Android Studio
-` yaourt -S android-studio
-yaourt -S android-tools android-udev
-sudo gpasswd -a awecode adbusers
-yaourt -S genymotion
-uname -r
-yaourt linux-headers
-restart
-open android studio`
+- ` yaourt -S android-studio`
+- `yaourt -S android-tools android-udev`
+- `sudo gpasswd -a awecode adbusers`
+- `yaourt -S genymotion`
+- `uname -r`
+- `yaourt linux-headers`
+- `restart`
+- `open android studio`
 
+### Weex build
+- `git clone https://github.com/tralves/weex-todo-list 204`
+- `yarn (or npm install)`
+- `yarn build (or npm run build)`
+- `yarn copy:android (or npm run copy:android)`
+- `open android folder in Android Studio`
+- `Either run app or build apk!`
 ### Reference
 * [How to configure](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
 * [How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04#create-a-gunicorn-systemd-service-file)
