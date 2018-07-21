@@ -79,6 +79,9 @@ Put in .bashrc or .zshrc
 - `restart`
 - `open android studio`
 
+To increase size of tmp/ (in case No space left on device warning came up)
+- `mount -o remount,size=5G /tmp/`
+
 ### Weex build
 - `git clone https://github.com/tralves/weex-todo-list 204`
 - `yarn (or npm install)`
