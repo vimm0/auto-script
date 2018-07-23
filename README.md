@@ -89,6 +89,14 @@ To increase size of tmp/ (in case No space left on device warning came up)
 - `yarn copy:android (or npm run copy:android)`
 - `open android folder in Android Studio`
 - `Either run app or build apk!`
+
+### VSCODE
+When commenting a line, move the cursor to the next line
+Use geddski.macros extension:
+- `Add macro to settings.json -- "macros": { "commentLine": ["editor.action.commentLine","cursorDown"] }`
+
+- `Map a key in keybindings.json (use you own favorite key combo) -- { "key": "ctrl+/", "command": "macros.commentLine", "when": "editorTextFocus && !editorReadonly" }`
+
 ### Reference
 * [How to configure](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
 * [How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04#create-a-gunicorn-systemd-service-file)
