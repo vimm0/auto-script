@@ -1,0 +1,22 @@
+Important things not mentioned in the Django documentation:
+
+run django-admin compilemessages, e.g. as a part of your build process. Thanks stevejalim!
+apply django's ugettext_lazy() to model names ( Meta class and verbose_name )
+attribute (model field verbose_name) names can also be translated with ugettext_lazy()
+use lazy translation in your model metadata, otherwise the translation happens while loading the model classes and the settings of your users, especially the browser settings, will not be taken into account
+I use some scoping for attribute names, e.g. separating the model name and attribute names with a pipe. The same convention is used in ruby-gettext. Background: attribute names like 'title' or 'name' translated differently in the most languages depending on context. Example 'Book|title' -> 'Titel' or 'Buchtitel' in German. But 'Chapter|title' would be translated as 'Überschrift'.
+Example using above principles:
+
+from django.utils.translation import ugettext_lazy as _
+class Order(models.Model):
+    subject = models.CharField(max_length=150, verbose_name = _('Order|subject'))
+    description = models.TextField(            verbose_name = _('Order|description'))
+    class Meta:
+        verbose_name = _('order')
+        verbose_name_plural = _('orders')
+        
+Or is there a better way to translate the model and admin pages?
+
+Either way we should enhance the Django documentation and fill the gap!
+
+#https://stackoverflow.com/questions/2938692/django-internationalization-for-admin-pages-translate-model-name-and-attribute
