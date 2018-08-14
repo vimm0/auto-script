@@ -19,4 +19,9 @@ Or is there a better way to translate the model and admin pages?
 
 Either way we should enhance the Django documentation and fill the gap!
 
+commands
+./manage.py makemessages -l ne
+./manage.py compilemessages -l ne
+
+
 #https://stackoverflow.com/questions/2938692/django-internationalization-for-admin-pages-translate-model-name-and-attribute
