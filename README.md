@@ -69,6 +69,7 @@ Put in .bashrc or .zshrc
 - `$ npm install -g nativescript --unsafe-perm
 
 - [more](https://medium.com/@WebReflection/testing-nativescript-on-arch-linux-a19511cd9521)`
+
 ### Android Studio
 - ` yaourt -S android-studio`
 - `yaourt -S android-tools android-udev`
@@ -89,6 +90,11 @@ To increase size of tmp/ (in case No space left on device warning came up)
 - `yarn copy:android (or npm run copy:android)`
 - `open android folder in Android Studio`
 - `Either run app or build apk!`
+
+### Dependency installer for ruby:
+For installing bundler system-wide. To do this, you need to pass --no-user-install flag to gem and execute it with sudo:
+`sudo gem install bundler --no-user-install`
+[Stack Overflow](https://stackoverflow.com/questions/28072128/zsh-command-not-found-bundle-after-gem-install-bundle)
 
 ### VSCODE
 When commenting a line, move the cursor to the next line
