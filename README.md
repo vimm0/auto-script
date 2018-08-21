@@ -66,9 +66,9 @@ Put in .bashrc or .zshrc
 - `$ export JAVA_HOME="/usr/lib/jvm/java-8-openjdk/"`
 
 - `$ sudo $ANDROID_HOME/tools/bin/sdkmanager "tools" "platform-tools" "build-tools;25.0.3" "extras;android;m2repository" "extras;google;m2repository"`
-- `$ npm install -g nativescript --unsafe-perm
+- `$ npm install -g nativescript --unsafe-perm`
 
-- [more](https://medium.com/@WebReflection/testing-nativescript-on-arch-linux-a19511cd9521)`
+- [more](https://medium.com/@WebReflection/testing-nativescript-on-arch-linux-a19511cd9521)
 
 ### Android Studio
 - ` yaourt -S android-studio`
@@ -95,6 +95,22 @@ To increase size of tmp/ (in case No space left on device warning came up)
 For installing bundler system-wide. To do this, you need to pass --no-user-install flag to gem and execute it with sudo:
 `sudo gem install bundler --no-user-install`
 [Stack Overflow](https://stackoverflow.com/questions/28072128/zsh-command-not-found-bundle-after-gem-install-bundle)
+
+### Auto Fixture Django:
+Django Package: `django-autofixture`
+
+For models involving ForeignKey
+
+``` 
+  from apps.payroll.models import Designation, Employee
+
+  In [2]: from autofixture import AutoFixture
+  
+  In [3]: fixture = AutoFixture(Designation, generate_fk=True)
+  
+  In [4]: fixture.create(50)
+```
+
 
 ### VSCODE
 When commenting a line, move the cursor to the next line
