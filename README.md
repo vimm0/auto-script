@@ -110,7 +110,8 @@ For models involving ForeignKey
   
   In [4]: fixture.create(50)
 ```
-
+### Devnagiri fonts in archlinux
+`sudo yaourt -S ttf-indic-otf`
 
 ### VSCODE
 When commenting a line, move the cursor to the next line
