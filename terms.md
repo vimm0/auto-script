@@ -1,0 +1,1 @@
+- A `monkey patch` is a way for a program to extend or modify supporting system software locally (affecting only the running instance of the program).
