@@ -145,6 +145,8 @@ For models involving ForeignKey
   </v-container>
 
 ```
+### ngrok http host-header
+`ngrok http 8080 -host-header="localhost:8080"`
 
 ### Devnagiri fonts in archlinux
 `sudo yaourt -S ttf-indic-otf`
