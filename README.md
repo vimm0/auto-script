@@ -148,6 +148,10 @@ For models involving ForeignKey
 ### ngrok http host-header
 `ngrok http 8080 -host-header="localhost:8080"`
 
+### Package Manager
+- `yarn upgrade-interactive --latest`
+- `yarn upgrade --latest`
+
 ### Devnagiri fonts in archlinux
 `sudo yaourt -S ttf-indic-otf`
 
