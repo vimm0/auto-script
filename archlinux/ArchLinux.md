@@ -2,12 +2,13 @@
 
 Create Hotspot
 
-`sudo systemctl start ModemManager.service && sudo systemctl enable ModemManager.service`
+- `sudo systemctl start ModemManager.service && sudo systemctl enable ModemManager.service`
 
 `sudo passwd -d 'whoami'`
 ## zsh setup
-`sudo pacman -S zsh git`
-`sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
+- `sudo pacman -S zsh git`
+- `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
+- In bashrc,`export ZSH=$HOME/.oh-my-zsh` and `zsh`
 
 ## Ssh setup
 - `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
