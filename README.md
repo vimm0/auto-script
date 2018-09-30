@@ -96,20 +96,7 @@ For installing bundler system-wide. To do this, you need to pass --no-user-insta
 `sudo gem install bundler --no-user-install`
 [Stack Overflow](https://stackoverflow.com/questions/28072128/zsh-command-not-found-bundle-after-gem-install-bundle)
 
-### Auto Fixture Django:
-Django Package: `django-autofixture`
 
-For models involving ForeignKey
-
-``` 
-  from apps.payroll.models import Designation, Employee
-
-  In [2]: from autofixture import AutoFixture
-  
-  In [3]: fixture = AutoFixture(Designation, generate_fk=True)
-  
-  In [4]: fixture.create(50)
-```
 ### Nested Grid Vuetify
 ```
  <v-container grid-list-md text-xs-center>
