@@ -1,3 +1,4 @@
+`heroku login`
 
 ### requirements.txt
 ```
@@ -49,17 +50,10 @@ web: gunicorn merolekha.wsgi --log-file -
 ```
 `Note: commit changes`
 
-## Heroku commands
-- `heroku create <app-name>`
-- Test locally, `heroku local web`
-- To disable collectstatic command, `heroku config:set DISABLE_COLLECTSTATIC=1`
-- `git push heroku master`
-- if postgres, `heroku addons:create heroku-postgresql:hobby-dev`
-- if branch, `git push heroku testbranch:master`
 
 # For static file
-`npm install express serve-static --save`
-
+- `npm install express serve-static --save`
+- `npm run build`
 ```
 const express = require('express')
 const serveStatic = require('serve-static')
@@ -81,9 +75,18 @@ console.log('Server started on port ' + port)
 
 run 
 
-`node server.js
+- `node server.js
 `
 
 ### Procfile
-`web: node server.js` 
+- `web: node server.js` 
 
+- build latest before push
+- remove /dist/ form ignore file
+## Heroku commands
+- `heroku create <app-name>`
+- Test locally, `heroku local web`
+- To disable collectstatic command, `heroku config:set DISABLE_COLLECTSTATIC=1`
+- `git push heroku master`
+- if postgres, `heroku addons:create heroku-postgresql:hobby-dev`
+- if branch, `git push heroku testbranch:master`
