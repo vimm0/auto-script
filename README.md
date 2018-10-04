@@ -142,6 +142,10 @@ For installing bundler system-wide. To do this, you need to pass --no-user-insta
 ### Devnagiri fonts in archlinux
 `sudo yaourt -S ttf-indic-otf`
 
+### Daemonize
+- `redis-server --daemonize yes`
+- `ps aux | grep redis-server`
+
 ### VSCODE
 When commenting a line, move the cursor to the next line
 Use geddski.macros extension:
