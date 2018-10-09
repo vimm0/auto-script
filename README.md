@@ -146,6 +146,10 @@ For installing bundler system-wide. To do this, you need to pass --no-user-insta
 - `redis-server --daemonize yes`
 - `ps aux | grep redis-server`
 
+### Dockerize
+- `sudo usermod -a -G docker $USER`
+
+
 ### VSCODE
 When commenting a line, move the cursor to the next line
 Use geddski.macros extension:
