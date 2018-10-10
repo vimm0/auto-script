@@ -7,7 +7,7 @@ s3 = boto3.resource(
     config=Config(signature_version='s3v4')
 )
 
-# SEND_MEDIA_ROOT = '/home/vimm0/office/media/video/cut_71XwINQ.mp4'
+# SEND_MEDIA_ROOT = '/home/vimm0/<project>/media/video/video_WEfstgs.mp4'
 # data = open(SEND_MEDIA_ROOT, 'rb')
 
-# s3.Bucket('XXX-backend-static-dev').put_object(Key='/media/video/cut_71XwINQ.mp4', Body=data, ACL='public-read')
+# s3.Bucket('XXX-backend-static-dev').put_object(Key='/media/video/video_WEfstgs.mp4', Body=data, ACL='public-read')
