@@ -1,10 +1,10 @@
 ```
 sudo -i -u postgres
-~$ createuser saleor
-~$ createdb saleor
+~$ createuser <username>
+~$ createdb <projectname>
 OR
-~$ createdb -O saleor saleor
+~$ createdb -O <username> <projectname>
 ~$ psql
 ALTER ROLE "asunotest" WITH LOGIN;
-ALTER USER saleor WITH NOSUPERUSER
+ALTER USER <username> WITH NOSUPERUSER
 ```
