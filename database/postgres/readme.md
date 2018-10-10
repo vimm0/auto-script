@@ -8,3 +8,6 @@ OR
 ALTER ROLE "asunotest" WITH LOGIN;
 ALTER USER <username> WITH NOSUPERUSER
 ```
+
+
+https://lobotuerto.com/blog/how-to-install-postgresql-in-manjaro-linux/
