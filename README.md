@@ -4,7 +4,7 @@ Initiative for creating easy auto scripts
 
 Snippets are reusable with little or no changes . If you are new to programming or simply interested in learning different scripts, here are some resources you can use.
 
-P.S. Feel free to contribute, fork, star
+:blush: Feel free to contribute, fork, star
 
 ### Archlinux
 * [Read Me](./archlinux/ArchLinux.md)
