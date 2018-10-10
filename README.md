@@ -2,7 +2,9 @@
 
 Initiative for creating easy auto scripts
 
-Configs are reusable with little or no changes . If you are new to programming or simply interested in learning different scripts, here are some resources you can use.
+Snippets are reusable with little or no changes . If you are new to programming or simply interested in learning different scripts, here are some resources you can use.
+
+P.S. Feel free to contribute, fork, star
 
 ### Archlinux
 * [Read Me](./archlinux/ArchLinux.md)
@@ -28,26 +30,6 @@ Configs are reusable with little or no changes . If you are new to programming o
 
 ### Handy Commands
 [Handy Commnads](./HandyCommands)
-
-### Open Source Projects
-
-- export SECRET_KEY = 'secret-key'   # Make sure to not include $ in secret key
-- create user and database in psql (also provide login, superuser permissison)
-
-```
-sudo -i -u postgres
-~$ createuser saleor
-~$ createdb saleor
-OR
-~$ createdb -O saleor saleor
-~$ psql
-ALTER ROLE "asunotest" WITH LOGIN;
-ALTER USER saleor WITH NOSUPERUSER
-```
-
-```./manage.py migrate```
-
-- And npm install [more](https://saleor.readthedocs.io/en/latest/gettingstarted/installation-linux.html#installation-for-linux)
 
 ### Genymotion Installation
 In Archlinux, copy url of snapshot from AUR `https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
