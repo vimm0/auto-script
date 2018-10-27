@@ -131,6 +131,9 @@ For installing bundler system-wide. To do this, you need to pass --no-user-insta
 ### Dockerize
 - `sudo usermod -a -G docker $USER`
 
+### Frontend locally run
+- `npm install -g serve`
+- `serve -s dist`
 
 ### VSCODE
 When commenting a line, move the cursor to the next line
