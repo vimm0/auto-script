@@ -17,6 +17,14 @@ Snippets are reusable with little or no changes . If you are new to programming 
 * [Unix Command](./commandline/unix-command/readme.md)
 * [Read Me](./commandline/readme.md)
 
+### Add frontend dist to gh-pages(automated)
+```
+npm install push-dir --save-dev
+In package.json, "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+npm run generate
+npm run deploy
+```
+
 ### Docker
 * [Read Me](./docker/readme.md)
 
