@@ -86,6 +86,9 @@ For installing bundler system-wide. To do this, you need to pass --no-user-insta
 `sudo gem install bundler --no-user-install`
 [Stack Overflow](https://stackoverflow.com/questions/28072128/zsh-command-not-found-bundle-after-gem-install-bundle)
 
+### Jekyll 
+- `bundle install`
+- `bundle exec jekyll serve`
 
 ### Nested Grid Vuetify
 ```
