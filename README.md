@@ -24,6 +24,9 @@ In package.json, "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
 npm run generate
 npm run deploy
 ```
+### Responsive Breakpoints
+
+For optimal user experience, material design user interfaces should adapt layouts for the following breakpoint widths: 480, 600, 840, 960, 1280, 1440, and 1600dp.
 
 ### Docker
 * [Read Me](./docker/readme.md)
