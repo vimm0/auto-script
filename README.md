@@ -58,13 +58,14 @@ Make sure to install `virtualbox-host-dkms`
 - `$ sudo vboxreload`
 
 ### Android Installation
-- `$ bash <(curl -s archibold.io/install/android)`
-Put in .bashrc or .zshrc
-- `$ export ANDROID_HOME="/opt/android-sdk"`  
-- `$ export JAVA_HOME="/usr/lib/jvm/java-8-openjdk/"`
+- `bash <(curl -s archibold.io/install/android)`
+- Put in .bashrc or .zshrc
 
-- `$ sudo $ANDROID_HOME/tools/bin/sdkmanager "tools" "platform-tools" "build-tools;25.0.3" "extras;android;m2repository" "extras;google;m2repository"`
-- `$ npm install -g nativescript --unsafe-perm`
+- `export ANDROID_HOME="/opt/android-sdk"`  
+- `export JAVA_HOME="/usr/lib/jvm/java-8-openjdk/"`
+
+- `sudo $ANDROID_HOME/tools/bin/sdkmanager "tools" "platform-tools" "build-tools;25.0.3" "extras;android;m2repository" "extras;google;m2repository"`
+- `npm install -g nativescript --unsafe-perm`
 
 - [more](https://medium.com/@WebReflection/testing-nativescript-on-arch-linux-a19511cd9521)
 
