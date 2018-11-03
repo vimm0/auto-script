@@ -48,12 +48,16 @@ For optimal user experience, material design user interfaces should adapt layout
 [Handy Commnads](./HandyCommands)
 
 ### Genymotion Installation
-In Archlinux, copy url of snapshot from AUR `https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
+In Archlinux, copy url of snapshot from AUR 
+
+- `https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
 - `wget https://aur.archlinux.org/cgit/aur.git/snapshot/genymotion.tar.gz`
 - `$ cd genymotion.tar.gz`
 - `$ makepkg -sri`
 
-Make sure to install `virtualbox-host-dkms`
+Make sure to install 
+
+- `virtualbox-host-dkms`
 - `$ sudo pacman -S linux-headers`
 - `$ sudo vboxreload`
 
