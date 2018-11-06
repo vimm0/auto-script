@@ -5,7 +5,13 @@ Initiative for creating easy auto scripts
 Snippets are reusable with little or no changes . If you are new to programming or simply interested in learning different scripts, here are some resources you can use.
 
 :blush: Feel free to contribute, fork, star
+### Git
+Use aliases. Though there aren't any native Git one-liners, you can define your own as
 
+git config --global alias.clone-branches '! git branch -a | sed -n "/\/HEAD /d; /\/master$/d; /remotes/p;" | xargs -L1 git checkout -t'
+and then use it as
+
+git clone-branches
 ### Archlinux
 * [Read Me](./archlinux/ArchLinux.md)
 
