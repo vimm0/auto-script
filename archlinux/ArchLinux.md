@@ -18,6 +18,9 @@ Create Hotspot
 - `xclip -sel clip < ~/.ssh/id_rsa.pub`
 - paste public key to Git repositories
 
+### Java in Archlinux
+- `pacman -S jdk8-openjdk`
+
 ### Full Stack Developer
 - ```plugins=(git git-extras git-flow colored-man colorize github vagrant virtualenv virtualenvwrapper pip python brew osx zsh-syntax-highlighting npm docker django bower celery node sublime sudo supervisor web-search)```
 - `yaourt -S python-pip`
