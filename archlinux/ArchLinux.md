@@ -27,5 +27,11 @@ Create Hotspot
 - ```git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
   ~/.scm_breeze/install.sh
   source ~/.bashrc   # or source ~/.zshrc```
+  
+### Redis
+`sudo pacman -S redis`
+`systemctl enable redis.service`
+`systemctl enable redis.service`
 Reference
 - [Create Wifi Gnome3](https://unix.stackexchange.com/questions/118267/create-a-wifi-hotspot-on-gnome-3-arch-linux)
+- [Redis Archlinux Documentation](https://wiki.archlinux.org/index.php/Redis)
