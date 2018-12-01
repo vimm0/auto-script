@@ -22,6 +22,31 @@ git clone-branches
 * [Zsh config](./commandline/zsh/.zshrc)
 * [Unix Command](./commandline/unix-command/readme.md)
 * [Read Me](./commandline/readme.md)
+### Django tenant
+
+- Migrate `./manage.py migrate_schemas --shared  # public schema`
+- Open Shell `./manage.py shell`
+```
+from apps.customer.models import Client 
+   ...:  
+   ...: # create your public tenant 
+   ...: tenant = Client(domain_url='my-domain.com', # don't add your port or www here! on a local server you'll want to use localhost here 
+   ...:                 schema_name='website', # change to app name or suitable schema name otherwise tenant doesnot migrate
+   ...:                 name='Schemas Inc.', 
+   ...:                 paid_until='2016-12-05', 
+   ...:                 on_trial=False) 
+   ...: tenant.save()      
+   ...:  
+   ...: # create your first real tenant 
+   ...: tenant = Client(domain_url='tenant.my-domain.com', # don't add your port or www here! 
+   ...:                 schema_name='private', 
+   ...:                 name='Fonzy Tenant', 
+   ...:                 paid_until='2014-12-05', 
+   ...:                 on_trial=True) 
+   ...: tenant.save() # migrate_schemas automatically called, your tenant is ready to be used!   
+```
+- create superuser`./manage.py createsuperuser --schema=private`
+
 
 ### Add frontend dist to gh-pages(automated)
 ```
