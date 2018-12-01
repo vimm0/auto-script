@@ -16,8 +16,14 @@ Step 3: As user 'postgres' start the database.
 initdb --locale en_US.UTF-8 -E UTF8 -D '/var/lib/postgres/data'
 ```
 
-Step 4: Finally, start and enable the postgresql.servic
+Step 4: Finally, start and enable the postgresql.service
 
+Select database and query table in postgres:
+```
+\l - list database
+\c <database> - connect to database
+\dt - list data table
+```
 
 #### Tips
 ```
