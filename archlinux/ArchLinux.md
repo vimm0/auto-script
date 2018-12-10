@@ -18,11 +18,20 @@ Create Hotspot
 - `xclip -sel clip < ~/.ssh/id_rsa.pub`
 - paste public key to Git repositories
 
+### Java in Archlinux
+- `pacman -S jdk8-openjdk`
+
 ### Full Stack Developer
 - ```plugins=(git git-extras git-flow colored-man colorize github vagrant virtualenv virtualenvwrapper pip python brew osx zsh-syntax-highlighting npm docker django bower celery node sublime sudo supervisor web-search)```
 - `yaourt -S python-pip`
 - ```git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
   ~/.scm_breeze/install.sh
   source ~/.bashrc   # or source ~/.zshrc```
+  
+### Redis
+`sudo pacman -S redis`
+`systemctl enable redis.service`
+`systemctl enable redis.service`
 Reference
 - [Create Wifi Gnome3](https://unix.stackexchange.com/questions/118267/create-a-wifi-hotspot-on-gnome-3-arch-linux)
+- [Redis Archlinux Documentation](https://wiki.archlinux.org/index.php/Redis)
