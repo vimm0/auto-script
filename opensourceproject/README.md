@@ -1,3 +1,5 @@
+#### Saleor
+
 - sudo pacman -S python-pip cairo pango gdk-pixbuf2 libffi pkg-config
 - pip install -r requirements.txt
 - export SECRET_KEY='<mysecretkey>'
