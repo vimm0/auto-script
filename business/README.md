@@ -1,3 +1,5 @@
+Brand linear-gradient(45deg, #1de099, #1dc8cd)
+
 WHY?
 - for corporate -> open current bank account
 - for invoice to our clients
