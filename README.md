@@ -18,10 +18,28 @@ git clone-branches
 ### Aws
 * [Upload File in Aws](./aws/upload_file_aws.py)
 
+### OhoDomain in netlify
+- manage nameserver default is,
+ns1: ohodomain.earth.orderbox-dns.com
+ns2: ohodomain.mars.orderbox-dns.com
+ns3: ohodomain.mercury.orderbox-dns.com
+ns4: ohodomain.venus.orderbox-dns.com
+
+with
+dns1.p04.nsone.net
+dns2.p04.nsone.net
+dns3.p04.nsone.net
+dns4.p04.nsone.net
+
+- manage dns with type A record ip: 104.198.14.52
+- domain forward with destination nepex.netlify.com
+
+
 ### Commandline
 * [Zsh config](./commandline/zsh/.zshrc)
 * [Unix Command](./commandline/unix-command/readme.md)
 * [Read Me](./commandline/readme.md)
+
 ### Django tenant
 
 - Migrate `./manage.py migrate_schemas --shared  # public schema`
