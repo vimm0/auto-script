@@ -18,6 +18,11 @@ git clone-branches
 ### Aws
 * [Upload File in Aws](./aws/upload_file_aws.py)
 
+### Serve frontend locally
+```npm install -g serve
+   serve -s dist
+```
+
 ### OhoDomain in netlify
 - manage nameserver default is,
 ns1: ohodomain.earth.orderbox-dns.com
