@@ -19,7 +19,8 @@ git clone-branches
 * [Upload File in Aws](./aws/upload_file_aws.py)
 
 ### Serve frontend locally
-```npm install -g serve
+```
+   npm install -g serve
    serve -s dist
 ```
 
