@@ -26,6 +26,7 @@ git clone-branches
 
 ### OhoDomain in netlify
 - manage nameserver default is,
+```
 ns1: ohodomain.earth.orderbox-dns.com
 ns2: ohodomain.mars.orderbox-dns.com
 ns3: ohodomain.mercury.orderbox-dns.com
@@ -36,6 +37,7 @@ dns1.p04.nsone.net
 dns2.p04.nsone.net
 dns3.p04.nsone.net
 dns4.p04.nsone.net
+```
 
 - manage dns with type A record ip: 104.198.14.52
 - domain forward with destination nepex.netlify.com
@@ -48,28 +50,20 @@ dns4.p04.nsone.net
 
 ### Django tenant
 
-- Migrate `./manage.py migrate_schemas --shared  # public schema`
+- Migrate `./manage.py migrate_schemas --shared  # migrate database to public schema`
 - Open Shell `./manage.py shell`
 ```
 from apps.customer.models import Client 
-   ...:  
    ...: # create your public tenant 
    ...: tenant = Client(domain_url='my-domain.com', # don't add your port or www here! on a local server you'll want to use localhost here 
    ...:                 schema_name='website', # change to app name or suitable schema name otherwise tenant doesnot migrate
-   ...:                 name='Schemas Inc.', 
+   ...:                 name='Schemas Inc.', # organization name
    ...:                 paid_until='2016-12-05', 
-   ...:                 on_trial=False) 
+   ...:                 on_trial=False) # for later use: billing purpose
    ...: tenant.save()      
-   ...:  
-   ...: # create your first real tenant 
-   ...: tenant = Client(domain_url='tenant.my-domain.com', # don't add your port or www here! 
-   ...:                 schema_name='private', 
-   ...:                 name='Fonzy Tenant', 
-   ...:                 paid_until='2014-12-05', 
-   ...:                 on_trial=True) 
-   ...: tenant.save() # migrate_schemas automatically called, your tenant is ready to be used!   
+   create client now
 ```
-- create superuser`./manage.py createsuperuser --schema=private`
+- create superuser`./manage.py createsuperuser --schema=website`
 
 
 ### Add frontend dist to gh-pages(automated)
