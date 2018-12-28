@@ -69,6 +69,7 @@ For models involving ForeignKey
   In [4]: fixture.create(50)
 ```
 ### Custom django template
+Project Structure
 ```
 apps
   - appOne
