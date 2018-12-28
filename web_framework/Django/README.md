@@ -100,7 +100,20 @@ TEMPLATES = [
     },
 ]
 ```
-- To override base.css, create `/static/admin/css/base.css`
+- To override base.css globally, create `/static/admin/css/base.css`
+- For app level css,js,
+  ```
+  @admin.register(ModelName)
+class ModelNameAdmin(admin.ModelAdmin):
+    class Media:
+        js = (
+            'js/jquery-3.3.1.min.js',
+            'js/custom.js'
+        )
+        css = {
+             'all': ('css/custom.css',)
+        }
+  ```
 - To override app level templates, create `apps/app/templates/admin/app/{{template_name}}.html`, where template_name could be change_form, change_list etc.
 
 ### TEST
