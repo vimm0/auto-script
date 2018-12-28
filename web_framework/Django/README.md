@@ -68,6 +68,39 @@ For models involving ForeignKey
   
   In [4]: fixture.create(50)
 ```
+### Custom django template
+```
+apps
+  - appOne
+  - appTwo
+projectname
+  -settings
+  -urls
+  -wsgi
+static
+```
+In setting,
+```
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
+- To override base.css, create `/static/admin/css/base.css`
+- To override app level templates, create `apps/app/templates/admin/app/{{template_name}}.html`, where template_name could be change_form, change_list etc.
 
 ### TEST
 
