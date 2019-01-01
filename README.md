@@ -18,6 +18,12 @@ git clone-branches
 ### Aws
 * [Upload File in Aws](./aws/upload_file_aws.py)
 
+### OAuth Google
+```
+Authorized JavaScript origins = http://localhost:8000
+Authorized redirect URIs = http://localhost:8000/complete/google-oauth2/
+```
+
 ### Serve frontend locally
 ```
    npm install -g serve
