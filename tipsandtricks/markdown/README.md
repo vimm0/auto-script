@@ -3,7 +3,7 @@ Markdown
 
 Table of Content
 * [Emphasis](#Emphasis)
-* [Bullet List and nested](#Bullet List and nested)
+* [Bullet List and nested](#Bullet-List-and-nested)
 * [Numbered List and nested](#Numbered List and nested)
 * [Heading](#Heading)
 * [Block quote](#Block quote)
@@ -50,13 +50,13 @@ const yellow = #FFFF00;
 ```
 
 #### Images
-![Optional alternative text if image doesn't load](http://www.sampleurl.com/logo.png)
+![Optional alternative text if image doesn't load](http://www.nepexgroup.com/logo.png)
 
 #### Links
-[Link display text](http://www.sampleurl.com)
+[Nepex Group Website](http://www.nepexgroup.com)
 
 #### Images with link
-[![alt text](imageurl)](linkurl)
+[![nepex group website](http://www.nepexgroup.com/logo.png)](http://www.nepexgroup.com)
 
 #### Horizontal rule line
 
