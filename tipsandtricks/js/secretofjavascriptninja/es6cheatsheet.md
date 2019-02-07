@@ -30,3 +30,31 @@ do("Fuma"); //"Fuma skulk"
 ```
 [...items, 3, 4, 5]
 ```
+
+##### Arrow Function
+> An arrow function expression is a syntactically compact alternative to a regular function expression, although without its own bindings to the this, arguments, super, or new.target keywords. Arrow function expressions are ill suited as methods, and they cannot be used as constructors.
+
+```
+const values = [0, 3, 2, 5, 7, 4, 8, 1];
+values.sort((v1,v2) => v1 - v2); /*OR*/ values.sort((v1,v2) => { return v1 - v2;});
+value.forEach(value => console.log(value));
+```
+
+##### Generators
+> The Generator object is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol.
+
+```
+function *IdGenerator(){
+ let id = 0;
+ while(true){ yield ++id; }
+}
+```
+
+##### Promises
+> The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
+
+```
+ new Promise((resolve, reject) => {});.
+ myPromise.then(val => console.log("Success"), err => console.log("Error"));
+ myPromise.catch(e => alert(e));.
+```
