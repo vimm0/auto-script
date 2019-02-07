@@ -1,9 +1,7 @@
 # Auto-script
 
-Initiative for creating easy auto scripts
-
+>Initiative for creating easy auto scripts
 Snippets are reusable with little or no changes . If you are new to programming or simply interested in learning different scripts, here are some resources you can use.
-
 :blush: Feel free to contribute, fork, star
 
 Table of Content
