@@ -14,3 +14,9 @@ API used by web applications?
 to the given HTML?
 * How many events can a web application handle at once?
 Why must browsers use an event queue to process events?
+* In what situations might callback functions be used syn-
+chronously? Asynchronously?
+* What’s the difference between an arrow function and a
+function expression?
+* Why might you need to use default parameter values in a
+function?
