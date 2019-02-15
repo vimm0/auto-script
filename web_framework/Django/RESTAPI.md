@@ -97,6 +97,7 @@ def update(self, instance, validated_data):
     return instance
 
 ```
+But [https://github.com/beda-software/drf-writable-nested](https://github.com/beda-software/drf-writable-nested) could be used for writable nested serializer.
 
 Reference:
   - [https://django.cowhite.com/blog/create-and-update-django-rest-framework-nested-serializers/](https://django.cowhite.com/blog/create-and-update-django-rest-framework-nested-serializers/)
