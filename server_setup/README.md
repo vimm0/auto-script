@@ -20,14 +20,14 @@ EC2 (python project):
 
 ##### server
 ```
-mkdir repo.git app conf logs media static
-cd repo.git
-git init --bare
-git --bare update-server-info
-git config core.bare false
-git config receive.denycurrentbranch ignore
-git config core.worktree /home/{user}/app/
-cat > hooks/post-receive
+$ mkdir repo.git app conf logs media static
+$ cd repo.git
+$ git init --bare
+$ git --bare update-server-info
+$ git config core.bare false
+$ git config receive.denycurrentbranch ignore
+$ git config core.worktree /home/{user}/app/ <--- directory in remote
+$ cat > hooks/post-receive
 #!/bin/sh
 git checkout -f
 cd ../app
@@ -35,15 +35,18 @@ cd ../app
 $ chmod +x hooks/post-receive
 ```
 
-ssh username@domainname.com -p portnum
+`ssh username@domainname.com -p portnum`
 
-ssh-copy-id username@domainname.com
+`ssh-copy-id username@domainname.com`
+
 ##### Create link between local repo and remote:
 ```
-git remote add server ssh://username@domainname.com:portnum/home/jus/repo.git/
+git remote add server ssh://username@domainname.com:portnum/home/jus/repo.git/ <--- directory in remote
 ```
-git remote add server ssh://root@ip_address:/root/repo.git/
-scp -r dist root@ip_address:/root/app/
+`git remote add server ssh://root@ip_address:/root/repo.git/`
+
+`scp -r dist root@ip_address:/root/app/`
+
 To push into remote
 ```
 git push server --all
