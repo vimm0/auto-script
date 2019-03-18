@@ -42,7 +42,8 @@ ssh-copy-id username@domainname.com
 ```
 git remote add server ssh://username@domainname.com:portnum/home/jus/repo.git/
 ```
-
+git remote add server ssh://root@ip_address:/root/repo.git/
+scp -r dist root@ip_address:/root/app/
 To push into remote
 ```
 git push server --all
