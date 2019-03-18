@@ -32,6 +32,7 @@ cat > hooks/post-receive
 git checkout -f
 cd ../app
 ./deploy.sh
+$ chmod +x hooks/post-receive
 ```
 
 ssh username@domainname.com -p portnum
