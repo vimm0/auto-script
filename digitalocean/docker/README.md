@@ -2,7 +2,7 @@
 
 - Create droplet using marketplace option and choose docker
 - You will receive email with Ip Address, password and other important credentials
-- `ssh root@68.183.92.42`
+- `ssh username@ip_address`
 
 In Server,
 ```
@@ -12,7 +12,7 @@ $ git init --bare
 $ git --bare update-server-info
 $ git config core.bare false
 $ git config receive.denycurrentbranch ignore
-$ git config core.worktree /home/{user}/app/ <--- directory in remote
+$ git config core.worktree /root/app/ <--- directory in remote
 $ cat > hooks/post-receive
 #!/bin/sh
 git checkout -f
@@ -22,12 +22,12 @@ $ chmod +x hooks/post-receive
 ```
 
 In localhost, create remote link (Backend)
-- `git remote add server ssh://root@68.183.92.42:/root/repo.git/`
+- `git remote add server ssh://username@ip_address:/root/repo.git/`
 - `git push server --all`
 
 Now build and copy (Frontend),
 - Build directory `dist/`
-- `scp -r dist root@68.183.92.42:/root/app/`
+- `scp -r dist username@ip_address:/root/app/`
 
 In Server,
 ```
