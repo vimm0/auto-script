@@ -32,6 +32,9 @@ Now build and copy (Frontend),
 In Server,
 ```
 docker-compose up -d --build
+
+docker logs -f <CONTAINER>
+docker exec -it <mycontainer> bash
 ```
 
 Note: Make sure Nginx bind port to `80`, Otherwise it won't be public.
