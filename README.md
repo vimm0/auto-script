@@ -10,6 +10,12 @@ Table of Content
 * [Markdown Cheatsheet](./tipsandtricks/markdown)
 * [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 
+### Delete Migration files
+```
+find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
+find . -path "*/migrations/*.pyc"  -delete
+```
+
 ### Git
 Use aliases. Though there aren't any native Git one-liners, you can define your own as
 
