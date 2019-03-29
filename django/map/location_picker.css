@@ -1,0 +1,13 @@
+.location-picker-wrap {
+    display: inline-block;
+}
+.location-picker-map {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 2px;
+}
+.location-picker-wrap input {
+    width: 298px;
+    margin: 0 0 10px;
+}
