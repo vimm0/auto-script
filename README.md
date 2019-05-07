@@ -15,6 +15,13 @@ Table of Content
 find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
 find . -path "*/migrations/*.pyc"  -delete
 ```
+## django-tenant-schemas
+```
+# DUMP DATA
+./manage.py tenant_command dumpdata --schema="schema-name" app_name.model_name --indent 4 > fixtures/dump.json
+# LOAD DATA
+./manage.py tenant_command loaddata --schema=schema_name dump.json 
+```
 
 ### Git
 Use aliases. Though there aren't any native Git one-liners, you can define your own as
