@@ -9,6 +9,7 @@ Table of Content
 --
 * [Markdown Cheatsheet](./tipsandtricks/markdown)
 * [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
+* [Graphviz](./python/README.md)
 
 ##### Google's Webp Conversion (2019-05-21)
 - https://www.archlinux.org/packages/extra/x86_64/libwebp/ (archlinux)
