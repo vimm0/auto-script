@@ -27,6 +27,18 @@ Design Tools
 - FreeCad/LibreCad ((build machine cars)3D modeler made primarily to design real-life objects of any size.)
 - Sweet Home 3D (interior design application that helps you draw the plan of your house)
 
+- ##### Extra design Prototyping tools
+    - Online:
+        - InVision
+        - Figma
+        - Marvel
+    - Offline:
+        - Gravit Designer(best)
+        - Alva
+        - Akira
+    
+- https://uxplanet.org/open-design-freeware-tools-for-designers-f7bdde99f2e0
+
 ### Delete Migration files
 ```
 find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
