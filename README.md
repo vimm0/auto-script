@@ -10,6 +10,23 @@ Table of Content
 * [Markdown Cheatsheet](./tipsandtricks/markdown)
 * [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 
+Design Tools
+============
+
+- Pencil/quickMockup/Balsamiq (design prototyping tool (wireframe))
+- Gimp (raster image)
+- Inkscape (vector image)
+- Darktable/LightZone (Photographer for manage files)
+- Scribus (Page Layou Program)
+- Ardour/Audacity(Audio mix)
+- Synfig Studio (2D Animation Software)
+- Fusion/Natron  (visual effects, 3D, VR and motion graphics solution)
+- Kdenlive/DaVinci Resolve/OpenShot ((filming)professional 8K editing, color correction, visual effects and audio post production)
+- Aptana Studio/Brackets  (IDE for web application)
+- Blender (modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation)
+- FreeCad/LibreCad ((build machine cars)3D modeler made primarily to design real-life objects of any size.)
+- Sweet Home 3D (interior design application that helps you draw the plan of your house)
+
 ### Delete Migration files
 ```
 find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
