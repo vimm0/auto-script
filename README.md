@@ -10,6 +10,16 @@ Table of Content
 * [Markdown Cheatsheet](./tipsandtricks/markdown)
 * [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 
+##### Google's Webp Conversion (2019-05-21)
+- https://www.archlinux.org/packages/extra/x86_64/libwebp/ (archlinux)
+- command to convert webp to png: 
+
+    `cwebp -q 80 image.png -o image.webp`
+- command to convert png to webp: 
+
+    `dwebp image.webp -o image.png`
+
+
 Design Tools
 ============
 
