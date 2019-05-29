@@ -1,0 +1,29 @@
+##### Background
+- background-color
+    - background-color: blue;
+    - background-color: rgb(0, 0, 255);
+    - background-color: #0000ff;
+    - background-color: transparent;
+- background-image
+    - background-image: url(image.jpg);
+- background-repeat
+    - background-repeat: repeat;
+    - background-repeat: no-repeat;
+    - background-repeat: repeat-x;
+    - background-repeat: repeat-y;
+    - background-repeat: inherit;
+- background-position
+    - background-position: 0 0;
+- background-attachment
+- `background: <color> <image> <position> <attachment> <repeat>`
+- `background: transparent url(image.jpg) 50% 0 scroll repeat-y;`
+
+- In css3, multiple url could be applied.
+- BACKGROUND CLIP
+    - background-clip: border-box;
+- BACKGROUND ORIGIN
+    - background-origin: border-box;
+- BACKGROUND SIZE
+    - background-size: contain;
+- BACKGROUND BREAK
+    - Background-break: continuous;
