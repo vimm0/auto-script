@@ -74,33 +74,33 @@
         - url(), linear-gradient(), rotate(), translate(), calc()
 - Data types
     - Textual data types
-        - <custom-ident>
-        - <string>
+        - `<custom-ident>`
+        - `<string>`
         - Pre-defined keyword values
-            - Pre-defined keywords as an <ident>
+            - Pre-defined keywords as an `<ident>`
             - left | right | none | inline-start | inline-end
         - CSS-wide values
             - initial, inherit, and unset, revert
         - URLs
-            - <url>
+            - `<url>`
     - Numeric data types
-        - <integer>
-        - <number>
-        - <dimension> / Dimensions:
-            - <length> (Distance units)
-            - <angle>
-            - <time>
-            - <frequency>
-            - <resolution>
+        - `<integer>`
+        - `<number>`
+        - `<dimension>` / Dimensions:
+            - `<length>` (Distance units)
+            - `<angle>`
+            - `<time>`
+            - `<frequency>`
+            - `<resolution>`
         - <percentage>
         - Mixing percentages and dimensions
-            - <frequency-percentage>
-            - <angle-percentage>
-            - <time-percentage>
+            - `<frequency-percentage>`
+            - `<angle-percentage>`
+            - `<time-percentage>`
         - Special data types (defined in other specs)
-            - <color>
-            - <image>
-            - <position>
+            - `<color>`
+            - `<image>`
+            - `<position>`
         - Functional notation
             - calc()
             - min()
@@ -110,6 +110,41 @@
             - attr()
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units
+##### CSS value definition syntax
+- Component value types
+    - Keywords
+        - Generic keywords
+            - auto, smaller or ease-in
+        - The specific case of inherit, initial and unset
+    - Literals (slash ('/') or the comma (','))
+    - Data types
+        - Basic data types
+            -  '<' and '>': <angle>, <string>
+        - Non-terminal data types
+    - Component value combinators
+        - Brackets( group components to bypass the precedence rules.)
+            - `bold [ thin && <length> ]`
+        - Juxtaposition(mandatory and should appear in the exact order.)
+            - `bold <length> , thin`
+        - Double ampersand(mandatory but may appear in any order.)
+            - `bold && <length>`
+        - Double bar(at least one of them must be present, and they may appear in any order.)
+            - `<'border-width'> || <'border-style'> || <'border-color'>`
+        - Single bar(exactly one of these options must be present.)
+            - `<percentage> | <length> | left | center | right | top | bottom`
+    - Component value multipliers(multiplier is a sign that indicate how many times a preceding entity can be repeated.)
+        - Asterisk (*) (indicates that the entity may appear zero, one or several times.)
+            - `bold smaller*`
+        - Plus (+) ( indicates that the entity may appear one or several times.)
+            - `bold smaller+`
+        - Question mark (?) ( indicates that the entity is optional, and must appear zero or one time.)
+            - `bold smaller?`
+        - Curly braces ({ }) (enclosing two integers separated by a comma, A and B, indicates that the entity must appear at least A times and at most B times.)
+            - `bold smaller{1,3}`
+        - Hash mark (#) (indicates that the entity may be repeated one or more times)
+            - `bold smaller#`
+        - Exclamation point (!) ( exclamation point multiplier after a group indicates that the group is required, and must produce at least one value)
+            - `[ bold? smaller? ]!`
 ##### Background
 - background-color
     - background-color: blue;
