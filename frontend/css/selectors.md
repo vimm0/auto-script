@@ -1,0 +1,37 @@
+##### Selectors
+- Different types of selectors
+    - Simple selectors
+        - Element selector / Tag selector / type selector
+        - ID selector	
+        - Class selector
+        - Universal selector
+    - Attribute selector
+        - Presence and value
+            - [attr]: all elements with the attribute attr
+            - [attr=val]: attr, but only if its value is val
+            - [attr~=val]: attr, but only if  val is one of a space-separated list of words contained in attr's value
+        - Substring value
+            - [attr^=val]/[attr|=val]: value starts with val
+            - [attr$=val]: value ends with val
+            - [attr*=val]: value contains the substring val
+    - Pseudo-classes and pseudo-elements selector
+        - Pseudo-class 	(:)
+            - :active
+            - :checked
+            - :default
+            - :dir
+            - :disabled and more
+        - Pseudo-elements (::)
+            - ::after
+            - ::before
+            - ::first-letter
+            - ::first-line
+            - ::selection
+            - ::backdrop
+    - Combinators and selector lists
+        - Selector list	: A, B	(select all selector A, B)
+        - Descendant combinator	: A B (select descendants B of A)
+        - Child combinator	: A > B	(select direct child B of A)
+        - Adjacent sibling combinator : A + B (select adjacent sibling B of A)
+        - General sibling combinator : A ~ B (select all sibling B of A)
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
