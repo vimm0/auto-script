@@ -1,3 +1,115 @@
+##### Css
+##### Selectors
+- Different types of selectors
+    - Simple selectors
+        - Element selector / Tag selector / type selector
+        - ID selector	
+        - Class selector
+        - Universal selector
+    - Attribute selector
+        - Presence and value
+            - [attr]: all elements with the attribute attr
+            - [attr=val]: attr, but only if its value is val
+            - [attr~=val]: attr, but only if  val is one of a space-separated list of words contained in attr's value
+        - Substring value
+            - [attr^=val]/[attr|=val]: value starts with val
+            - [attr$=val]: value ends with val
+            - [attr*=val]: value contains the substring val
+    - Pseudo-classes and pseudo-elements selector
+        - Pseudo-class 	(:)
+            - :active
+            - :checked
+            - :default
+            - :dir
+            - :disabled and more
+        - Pseudo-elements (::)
+            - ::after
+            - ::before
+            - ::first-letter
+            - ::first-line
+            - ::selection
+            - ::backdrop
+    - Combinators and selector lists
+        - Selector list	: A, B	(select all selector A, B)
+        - Descendant combinator	: A B (select descendants B of A)
+        - Child combinator	: A > B	(select direct child B of A)
+        - Adjacent sibling combinator : A + B (select adjacent sibling B of A)
+        - General sibling combinator : A ~ B (select all sibling B of A)
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
+##### CSS values and units
+- Type of Css values and units
+    - Numeric values
+        - Length and size
+            - absolute units: Pixels (px) (1px = 1/96th of 1in)
+                - Q, mm, cm, in: Quarter millimeters, millimeters, centimeters, or inches
+                    - inches (1in = 96px = 2.54cm)
+                - px, pt, pc: Points (1/72 of an inch) or picas (12 points) 
+                    - points (1pt = 1/72 of 1in)
+                    - picas (1pc = 12 pt)
+                - Angle units
+                    - deg, grad, rad, turn
+                - Time units
+                    - s, ms
+                - Frequency units
+                    - Hz, kHz
+                - Resolution unit
+                    - dpi(Dots per inch), dpcm(Dots per centimetre), dppx(Dots per px unit), x
+            - relative units:
+                - em (emphemeral unit), rem (root em)
+                - ex, ch, cap, ch, ic, lh, rlh
+                - vw, vh, vi, vb, vmin, vmax
+        - Unitless values
+            - Unitless line height
+            - Number of animations
+    - Percentages(relative to parent)
+    - Colors
+        - Hexadecimal values
+        - RGB
+        - HSL :hsl() function accepts hue, saturation, and lightness
+        - RGBA and HSLA
+        - Opacity
+    - Functions
+        - rgb()
+        - hsl()
+        - url(), linear-gradient(), rotate(), translate(), calc()
+- Data types
+    - Textual data types
+        - <custom-ident>
+        - <string>
+        - Pre-defined keyword values
+            - Pre-defined keywords as an <ident>
+            - left | right | none | inline-start | inline-end
+        - CSS-wide values
+            - initial, inherit, and unset, revert
+        - URLs
+            - <url>
+    - Numeric data types
+        - <integer>
+        - <number>
+        - <dimension> / Dimensions:
+            - <length> (Distance units)
+            - <angle>
+            - <time>
+            - <frequency>
+            - <resolution>
+        - <percentage>
+        - Mixing percentages and dimensions
+            - <frequency-percentage>
+            - <angle-percentage>
+            - <time-percentage>
+        - Special data types (defined in other specs)
+            - <color>
+            - <image>
+            - <position>
+        - Functional notation
+            - calc()
+            - min()
+            - max()
+            - clamp()
+            - toggle()
+            - attr()
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units
 ##### Background
 - background-color
     - background-color: blue;
