@@ -11,5 +11,9 @@ Fundamental Techniques in Handling People
     - an animal rewarded for good behavior will learn much more rapidly and retain what it learns far more effectively than an wimal punished for bad behavior
 
 The Big Secret of Dealing with People
-- Sigmund Freud said that everything you and I do springs from two motives: the sex urge and the desire to be great.
-- Dr. Dewey said that the deepest urge in human nature is “the desire to be important.” 
+- Give honest and sincere appreciation
+    - Sigmund Freud said that everything you and I do springs from two motives: the sex urge and the desire to be great.
+    - Dr. Dewey said that the deepest urge in human nature is “the desire to be important.” 
+    - “Once I did bad and that I heard ever/Twice I did good, but that I heard never.”
+    -  power of appreciation
+    - “Don’t be afraid of enemies who attack you. Be afraid of the friends who flatter you.”
