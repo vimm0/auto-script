@@ -1,0 +1,3 @@
+- http://slott-softwarearchitect.blogspot.com/ (Steven F. Lott)
+- CCNA (Cisco Certified Network Associate)
+    - focus on security, cloud, collaboration, security operations, design, data center technologies, industrial plants, service providers, and wireless.
