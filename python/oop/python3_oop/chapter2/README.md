@@ -20,6 +20,14 @@ Initializing the object
 -  Classes can be defined anywhere
 - if a method is meant for internal use only, prefix an attribute or method with an underscore character: _. 
 - name mangling 
+- **top-down design**, when you work out the different interactions and describe how they should work before actually implementing what they do
+- **bottom-up design**, implements details first and then ties them all together
+
+Tips and Tricks:
+- Whenever the Python interpreter reads a source file, it does two things:
+    - it sets a few special variables like __name__, and then
+    - it executes all of the code found in the file.
+    - https://stackoverflow.com/questions/419163/what-does-if-name-main-do
 - Excercise: 
     - Note Book
     - TO DO application
