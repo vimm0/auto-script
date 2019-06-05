@@ -14,7 +14,7 @@ Get Ready to Learn _Going beneath the surface_
 - higher-order thinking takes place at the top of your “learning” brain, while the more basic emotional func
 - FIVE KEY PRINCIPLES
     - The brain loves to explore and make sense of the world
-    - The brain likes to make connections( brains try to fill in the gaps.)
+    - The brain likes to make connections(brains try to fill in the gaps.)
     - The brain thrives on patterns
     - The brain loves to imitate
     - The brain does not perform well under too much stress
