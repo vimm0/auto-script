@@ -38,3 +38,26 @@ Get Ready to Learn _Going beneath the surface_
     - Use humor
     - Don’t create fear in others if you want them to perform well.
     - Make sure you get enough sleep
+
+Getting Ready to Learn
+- “chance favors only the prepared mind,”
+- If you are tired or angry, hungry or distressed, too cold or too hot, you will not be in a state to learn.
+- The greatest revolution of our generation is the discovery that human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives.
+- It surprises me how our culture can destroy curiosity in the most curious of all animals—human beings.
+- It is essential to show emotions, but in a controlled way. You must show passion and belief, but rarely anger. A leader needs to be able to touch people at a raw emotional level.
+- People relate to you as a human being. You do need to show emotion, but never fake it. Of course you have to display anger for effect sometimes.
+- I don’t think you should show emotions at work. Yet you must obviously be
+emotional to make effective relationships. You have therefore, as a leader,
+to create a synthetic emotion, but one that is based on your genuine beliefs.
+Leadership is about deliberately creating a personality that is the right one
+for your company, and as such must involve playing a role. You need to be
+an actor, but it’s not an act.
+-  “It is the positive emotions that are really important, elation, joy and optimism.”
+- It’s very important to show you are really upset by some of the situations I’ve
+had to deal with in the oil and rail industries. Normally you must behave
+with equanimity, but for real issues, for example involving death, you must
+sometimes show your real emotions.
+- Try this idea. Take a page from your diary or personal organizer or create an electronic equivalent. Mark it out in hours and draw a line down the middle of the page. Every hour, stop and
+jot down on the left-hand side who you are with, where you are, and what you are doing.
+Describe on the right-hand side how you are feeling and any observations you might have
+about the situation. You can also use this approach in meetings if your attention is wandering!

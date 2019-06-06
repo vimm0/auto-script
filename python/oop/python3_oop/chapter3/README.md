@@ -10,3 +10,4 @@
 - __mro__ (Method Resolution Order) attribute (Expert Python Programming, Tarek Ziadé)
 - _Method Resolution Order_ (MRO) is the set of rules that construct the linearization. 
 - Polymorphism
+-  Static methods are associated only with a class (much like class variables), rather than a specific object instance. 
