@@ -61,3 +61,7 @@ sometimes show your real emotions.
 jot down on the left-hand side who you are with, where you are, and what you are doing.
 Describe on the right-hand side how you are feeling and any observations you might have
 about the situation. You can also use this approach in meetings if your attention is wandering!
+- Two approaches to raising self-esteem seem to work well: cognitive behavioral therapy and neurolinguistic programming
+-  it is counter-productive to waste time blaming yourself
+-  As a result of starting to think differently about things, you begin also to feel differently about yourself and your mood changes for the better. 
+-  three Ps of Permanence, Pervasiveness, and Personalization
