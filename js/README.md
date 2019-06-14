@@ -1,0 +1,2 @@
+- use let or const instead of var
+- object literal syntax
