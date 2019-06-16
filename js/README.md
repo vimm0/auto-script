@@ -1,6 +1,7 @@
 - use let or const instead of var
 - object literal syntax
-Do's and Donts
+
+#### Do's and Don'ts
 - LET OR CONST INSTEAD OF VAR
 - COMMENTS
 - FORMATTING CODE (code linters like ESLint or JSLint)
