@@ -22,11 +22,65 @@
 
 ##### Primitive
 - Boolean Type
+    - values are true or false
+    - not an alias for other types(eg. int)
+    - zero value is false
 - Numeric Type
     - Integers
+        - Signed Integer
+            - int type has varying size, but min 32 bits
+            - 8 bit(int8) through 64 bit(int64)
+            - int8: 128 - 127
+            - int16: 32768 - 32767
+            - int32
+            - int64
+        - Unsigned Integer
+            - 8bit(byte and uint8) through 32 bit(uint32)
+            - uint8
+            - uint16
+            - uint32
+        - Arithmetic Operator
+            - Addition, Subtraction, Multiplication, Division, Reminder
+        - Bitwise Operator
+            - And, OR, XOR and NOT
+        - zero value is zero
+        - can't mix types in same family(uint64 + uint32= error)
     - Floating Point
+        - Follow IEEE754 standard
+        - zero value is 0
+        - float32, float64
+        - literal styles
+            - decimal(3.45)
+            - exponential(12e12 oe 2E10)
+            - Mixed(13.7e12)
+        - Arithmetic Operator
+            - Addition, Subtraction, Multiplication, Division
     - Complex Number
+        - zero value is (0+0i)
+        - complex64
+        - complex128
+        - built-in functions
+            - complex - make complex number from two floats
+            - real - get real part as float
+            - imag - get imaginary part as float
 - Text Type
+    - Strings
+        - utf-8
+        - immutable
+        - can be concatenated with plus(+) operator
+        - can be converted to []byte
+    - Rune
+        - utf-32
+        - alias for int32
+        - special method normally required to process
+            - eg. strings, Reader#ReadRune        
+##### Constant
+- Naming convention
+- Typed constants
+- Untyped constants
+- Enumerated constants
+- Enumerated expressions
+
 
 ###### Reference
 - https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s
