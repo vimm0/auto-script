@@ -75,12 +75,38 @@
         - special method normally required to process
             - eg. strings, Reader#ReadRune        
 ##### Constant
+
 - Naming convention
+    - Immutable, but can be shadowed
+    - Replaced by the compiler at compile time
+        - Value must be calculable at compile time
+    - Named like variables
+        - PascalCase for exported constants
+        - camelCase for internal constants
 - Typed constants
+    - Typed constants work like immutable variables
+        - can interoperate only with same type
 - Untyped constants
+    - Untyped constant work like literals
+        - can interoperate with similar types
 - Enumerated constants
+    - special symbol iota allows related constants to be created easily
+    - Iota start at 0 in each const block and increments by one
+    - watch out of constant value that match zero values for variables
 - Enumerated expressions
-
-
+    - Operations that can be determined at compile time are allowed
+        - Arithmetic
+        - Bitwise Operations
+        - Bit shifting
+        
+##### Array and Slices
+- Arrays
+    - Creation
+    - Built-in functions
+    - working with arrays
+- Slices
+    - Creation
+    - Built-in functions
+    - Working with slices
 ###### Reference
 - https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s
