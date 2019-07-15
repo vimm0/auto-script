@@ -141,7 +141,8 @@
     - No inheritance, but can use composition via embedding
     - Tags can be added to struct fields to describe field
     
-##### Control Flow (If and Switch Statement) 
+#### Control Flow 
+##### (If and Switch Statement) 
 - If statement
     - Initializer
     - Comparison operator
@@ -162,8 +163,20 @@
 ##### Looping
     - For statement
         - simple loops
+            - for initializer; test; incrementer {}
+            - for test {}
+            - for {}
         - exiting early
+            - break
+            - continue
+            - labels
         - looping through collections
-
+            - arrays, slice, maps, strings, channels
+            - for k, v := range collection {}
+##### Defer, Panic and Recovery
+    - Defer
+    - Panic
+    - Recovery
+    
 ###### Reference
 - https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s
