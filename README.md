@@ -9,7 +9,7 @@ Table of Content
 --
 * [Markdown Cheatsheet](./tipsandtricks/markdown)
 * [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
-* [Graphviz](tech/programminglang/python/README.md)
+* [Graphviz](tech/lang/python/README.md)
 
 ##### Google's Webp Conversion (2019-05-21)
 - https://www.archlinux.org/packages/extra/x86_64/libwebp/ (archlinux)
@@ -94,8 +94,8 @@ For optimal user experience, material design user interfaces should adapt layout
 * [Read Me](tech/web/fullstack/Backend/docker/readme.md)
 
 ### Python
-* [Thread](tech/programminglang/python/thread.py)
-* [Read Me](tech/programminglang/python/readme.md)
+* [Thread](tech/lang/python/thread.py)
+* [Read Me](tech/lang/python/readme.md)
 
 ### Server
 * [nginx config](tech/web/fullstack/Backend/server_setup/nginx_setup/nginx.conf)

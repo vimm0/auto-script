@@ -39,3 +39,4 @@
 
 Reference:
 - https://jsguru.io/blog/Dos-and-Don-ts-for-Javascript-Newbies
+- https://www.youtube.com/watch?v=PFmuCDHHpwk&t=816s (oop)
