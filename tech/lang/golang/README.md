@@ -127,15 +127,43 @@
         
 ##### Maps and Structs
 - Maps
-    - what are they
-    - creating
-    - manipulation
+    - Collection of value types that are accessed via keys
+    - Created via literals or via make function
+    - Member accessed via [key] syntax
+        - myMap["key"] = "value"
+    - Check for presence with "value, ok" form of result
+    - Multiple assignments refer to same underlying data
 - Structs
-    - what are they
-    - creating
-    - naming convention
-    - embedding
-    - tags
+    - Collection of disparate data types that describe a single concept
+    - Keyed by named fields
+    - Normally, created as types, but anonymous structs are allowed
+    - Structs are value types
+    - No inheritance, but can use composition via embedding
+    - Tags can be added to struct fields to describe field
     
+##### Control Flow (If and Switch Statement) 
+- If statement
+    - Initializer
+    - Comparison operator
+    - Logical operator
+    - Short circuiting
+    - If-else statements
+    - If-else if statements
+    - Equality and floats
+- Switch statement
+    - Switching on a tag
+    - Cases with multiple tests
+    - Initializers
+    - Switches with no tag
+    - Fallthrough (implicit break in go lang)
+    - Type switches
+    - Breaking out early (break in switch case)
+
+##### Looping
+    - For statement
+        - simple loops
+        - exiting early
+        - looping through collections
+
 ###### Reference
 - https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s
