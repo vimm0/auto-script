@@ -101,12 +101,41 @@
         
 ##### Array and Slices
 - Arrays
-    - Creation
-    - Built-in functions
-    - working with arrays
+    - collection of items with same type
+    - fixed size
+    - declaration style
+        - a := [3]int{1,2,3}
+        - a := [...]int{1,2,3}
+        - car a [3]int
+    - Access via zero-based index
+        - a := [3]int {1,2,3} // a[1] == 3
+    - len function returns size of array
+    - copies refer to different underlying data
 - Slices
-    - Creation
-    - Built-in functions
-    - Working with slices
+    - backed by array
+    - Creation Stylle
+        - slice existing array or slice
+        - literal style
+        - via make function
+            - a:= make([]int, 10)
+            - a:= make([]int, 10, 100)
+        - len function return length of slice
+        - cap function returns length of underlying array
+        - append function to add elements to slice
+            - may cause expensive copy operation if underlying array is too small
+        - copies refer to same underlying array
+        
+##### Maps and Structs
+- Maps
+    - what are they
+    - creating
+    - manipulation
+- Structs
+    - what are they
+    - creating
+    - naming convention
+    - embedding
+    - tags
+    
 ###### Reference
 - https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s
