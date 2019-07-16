@@ -175,8 +175,44 @@
             - for k, v := range collection {}
 ##### Defer, Panic and Recovery
     - Defer
+        - used to delay execution of a statement until function exists
+        - useful to group "open" and "close" functions together
+            - Be careful in loops
+        - Run in LIFO(last-in, first-out) order
+        - Arguments evaluated at time defer is executed, not at time of called function execution
     - Panic
-    - Recovery
-    
+        - occur when program cannot continue at all
+            - Don't use when file can't be opened, unless it is critical
+            - Use for unrecoverable events - cannot obtain TCP port for web server
+        - function will stop executing
+            - deferred function will still fire
+        - If nothing handles panic, program will exit
+    - Recover
+        - used to recover from panics
+        - only useful in defered functions (because in panic execution will stop immediately)
+        - current function will not attempt to continue, but higher functions in call stack will
+
+##### Pointers
+    - creating pointers
+        - Pointer types use an asterisk (*) as a prefix to type pointed to
+            - *int - a pointer to an integer
+        - Use the addressof operator (&) to get address of variable
+    - deferencing pointers
+        - dereference a pointer by preceding with an asterisk(*)
+        - complex types (eg. structs) are automatically dereferenced
+    - create pointers to objects
+        - can use the addressof operator (&) if value type already exists
+            - ms := myStruct{foo: 42}
+            - p := &ms
+        - use addressof operator before initializer
+            - &myStruct{foo: 42}
+        - use the new keyword
+            - can't initialize fields at the same time
+    - the new function
+    - working with nil
+    - types with internal pointers
+        - All assignment operatiions in Go are copy operations
+        - Slice and maps contains internal pointers, so copies point to same underlying data
+
 ###### Reference
-- https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s
+- [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s)
