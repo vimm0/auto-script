@@ -42,11 +42,28 @@
 - Creating Objects
     - object literals
 - Factories and Constructors
-- Primitives and Reference Types
+- Primitives(value) and Reference Types
+    - Primitives(Value) Types
+        - Number
+        - String
+        - Boolean
+        - Symbol
+        - undefined
+        - null
+    - Reference Types
+        - Object
+        - Function 
+        - Array
 - Working with Properties
+    - Adding/Removing Properties
+    - Enumerate Properties
 - Private Properties
 - Getters/Setters
 
+##### Exercise
+- create stopwatch
+    - sw (methods start, stop, duration, reset)
 Reference:
 - https://jsguru.io/blog/Dos-and-Don-ts-for-Javascript-Newbies
 - https://www.youtube.com/watch?v=PFmuCDHHpwk&t=816s (oop)
+- http://programmingwithmosh.com 

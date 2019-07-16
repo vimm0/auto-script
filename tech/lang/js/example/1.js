@@ -28,3 +28,12 @@ another.draw()
 // new object create empty object
 // set this to point to the object
 // return the object
+
+// every object has contructor property and that references the function
+// that was used to create an object
+let x = {};// javascript engine create equivalent object
+// example, another.constructor()
+// let x = new Object();
+// new String(); for '', ""
+// new Boolean(); for true, false
+// new Number(); for 1, 2, 3...
