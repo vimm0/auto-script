@@ -269,13 +269,97 @@
         
 ##### Interfaces
 - Basics
+    - type Writer interface {
+        Write([]byte)(int, error)
+    }
+    type ConsoleWriter struct {}
+    func (cw ConsoleWriter) Write(data []byte)(int, error){
+        n, err := fmt.Println(String(data))
+        return n, err
+    }
 - composing interface
+    - type Writer interface {
+        Write([]byte)(int, error)
+    }
+    type Closer interface {
+        Close()error
+    }
+    type WriterCloser interface{
+        Writer
+        Closer
+    }
 - type conversion
+    - var wc WriterCloser = NewBufferedWriterCloser()
+      bwc := wc.(*BufferedWriterCloser)
     - the empty interface
+        - var i interface{} = 0
     - type switches
+        - var i interface{} = 0
+          switch i.(type) {
+              case int:
+                fmt.Println("i is integer")
+              case string:
+                fmt.Println("i is string")
+              default:
+                fmt.Println("I don't know what i is")
+          }
 - implementing with values vs pointers
+    - method set of value is all methods with value receivers
+    - method set of pointer is all methods, regardless of receiver type
 - best practices
+    - use many, small interfaces
+        - single method interfaces are some of the most powerful and flexible
+            - io.Writer, io.Reader, interface{}
+    - don't export interfaces for types that will be consumed
+    - do export interfaces for types that will be used by package
+    - design functions and methods to receive interfaces whenever possible
+##### GOROUTINE
+- creating goroutines
+    - use go keyword in front of function call
+    - when using anonymous function, pass data as local variables.
+- synchronization
+    - waitgroups
+        - use sync.WaitGroup to wait for groups of goroutines to complete
+    - mutexes
+        - use sync.Mutex and sync.RWMutex to protect data access
+- parallelism
+    - by default, go will use CPU threads equal to available cores
+    - change with runtime.GOMAXPROC
+    - more threads can increase prformance, but too many can slow it down
+- best practices
+    - dont create goroutines in library
+        - let consumer control concurrency
+    - when creating a goroutine, know how it will end
+        - Avoid subtle memory leaks
+    - check for race condition at compile time
 
+##### channels
+- channel basics
+    - create a channel with make command
+         - make(chan int)
+    - send message in to channel 
+        - ch <- val
+    - receive message from channel
+        - val := <-ch
+    - can have multiple senders and receivers
+- restriction data flow
+    - channel can be cast into send-only or receive only versions
+        - send-only: chan <- int
+        - receive-only: <- chan int
+- buffered channels
+    - channels block sender side till receiver is available
+    - block receiver side till message is available
+    - can decouple sender and receiver with buffered channels
+        - make (chan int, 50)
+    - use buffered channels when send and receiver have assymmetric loading
+- closing channels
+- for...range loop with channels
+    - use to monitor channel and process messages as they arrive
+    - loop exits when channel is closed
+- select statement
+    - allow goroutine to monitor several channels at once
+        - block if all channels block
+        - if multiple channel receive value simultaneously, behavior is undefined
 
 ###### Reference
 - [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s)
