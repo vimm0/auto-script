@@ -213,6 +213,69 @@
     - types with internal pointers
         - All assignment operatiions in Go are copy operations
         - Slice and maps contains internal pointers, so copies point to same underlying data
+##### Functions
+- Basic Syntax
+    - func foo(){
+        ...
+    }
+    - lowercase name in function indicate private
+    - uppercase name in function indicate public
+- Parameters
+    - comma delimited list of variables and types
+        - func foo(bar string, baz int)
+    - parameters of same type list type once
+        - func foo(bar, baz int)
+    - when pointers are passed in, the function can change the value in the caller
+        - This is always true for data of slice and maps
+    - use variadic parameters to send list of same types in
+        - must be last parameter
+        - received as a slice
+        - func foo(bar string, baz ...int)
+- Return Values
+    - single return values just like type
+        - func foo() int
+    - multiple return value list type surrounded by parentheses
+        - func foo() (int, error)
+        - The (result type, error) paradigm in a very common idiom
+    - can use named return values
+        - initializes returned values
+        - return using return keyword on its own
+    - can return addresses of local variables
+        - automatically promoted from local memory (stack) to shared memory (heap)
+- Anonymous Functions
+    - Function don't have names if they are:
+        - immediately invoked
+            - func() {
+                ...
+            }()
+        - assigned to a variable or passed as an argument to a function
+            - a := func() {
+                ...
+            }
+            a()
+- Functions as types
+    - can assigni function to variables or use as arguments and return values in functions
+    - Type signature is like function signature, with no parameter names
+        - var f func(string, string, int) (int, error)
+- Methods
+    - function that executes in context of a type
+    - format
+        - func (g greeter) greet() {
+            ...
+        }
+    - receiver can be value or pointer
+        - value receiver gets copy of type
+        - pointer receiver gets pointer to type
+        
+##### Interfaces
+- Basics
+- composing interface
+- type conversion
+    - the empty interface
+    - type switches
+- implementing with values vs pointers
+- best practices
+
 
 ###### Reference
 - [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s)
