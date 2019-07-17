@@ -363,3 +363,8 @@
 
 ###### Reference
 - [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU&t=1206s)
+- [Concurrency in Go](https://www.youtube.com/watch?v=LvgVSSpwND8)
+- [Live building a scalable API in Go with Kubernetes](https://www.youtube.com/watch?v=pkZrgHxJ130)
+- [Creating a Go API using an ORM - Tutorial](https://www.youtube.com/watch?v=VAGodyl84OY)
+- [why Golang is Sucessful by Creator of Golang Rob-pike](https://www.youtube.com/watch?v=cQ7STILAS0M)
+- [Go for Pythonistas](https://www.youtube.com/watch?v=elu0VpLzJL8)
