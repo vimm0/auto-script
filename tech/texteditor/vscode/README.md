@@ -23,7 +23,6 @@
 ###### Find File
 - Ctrl + p
 
-
 ###### Go to line
 - Ctrl + g
 

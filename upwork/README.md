@@ -10,8 +10,11 @@
 - Cryptocurrency actual price widget/plugin(Bitcoin, Litecoin and Ethereum.)
 - Blockchain
 - Web interface to a Search engine
-
-
+- woocommerce
+- Word Press
+- UI/UX design
+- Divi theme
+- live GPS map dashboard experience
 
 ###### Experience
 - Django (ORM, DRF, localization engine, template engine)

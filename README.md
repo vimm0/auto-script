@@ -1,4 +1,6 @@
 # Auto-script
+#### Always be curious, always read the source material, and always try it yourself.
+"learn the basics/roots first" principle applies to pretty much everything in life. From learning a new programming language to starting a new sport. It requires a lot of practice, but once you master it, the only thing left to do is to get creative with it. And that's where the real fun begins.
 
 >Initiative for creating easy auto scripts
 Snippets are reusable with little or no changes . If you are new to programming or simply interested in learning different scripts, here are some resources you can use.
@@ -10,6 +12,13 @@ Table of Content
 * [Markdown Cheatsheet](./tipsandtricks/markdown)
 * [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 * [Graphviz](tech/lang/python/README.md)
+
+
+ VanillaJS is the same as pure Javascript.
+
+Vanilla in slang means:
+
+unexciting, normal, conventional, boring
 
 ##### Google's Webp Conversion (2019-05-21)
 - https://www.archlinux.org/packages/extra/x86_64/libwebp/ (archlinux)
