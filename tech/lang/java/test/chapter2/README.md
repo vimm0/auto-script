@@ -47,3 +47,50 @@
     - within same class
     - from base class
   - occur through inheritance
+
+## Static Keyword
+
+- is used for memory management
+- is a non access modifier applicable for blocks, methods, class variables
+- is used to refer the common properties of an object
+- when the static keyword is used to declare any parameter, then memory is allocated only once for that parameter
+- can be invoked without need to create instance of a class
+
+## this keyword
+
+- this keyword is used as reference variable to the current object
+- this can be passed as an argument in the constructor call
+- this can be used to invoke current class method
+- this can be passed as an argument in the method call
+- this() can be used to invoke current class constructor
+- this keyword is used to refer current class instance variable and it can also be used to return the current class instance from the method
+
+## super keyword
+
+- is a reference variable that is used to refer parent class object
+- types
+  - used to refer immediate parent class instance variable
+  - used to invoke parent class method
+  - used to invoke parent class constructor
+
+## Object Programming Language
+
+- Inheritance
+
+  - object acquire some or all the properties and behaviour of parent object.
+  - is-a relationship
+  - used for
+    - method overriding(to acheive run-time polymorphism)
+    - code reusability
+      - `class SubClass extends SuperClass{}`
+  - types
+    - single inheritance
+    - hierarchical in heritance
+    - multilevel inheritance
+  - Aggregation (Has-a relationship)
+
+- Polymorphism
+  - static (method overloading)
+  - dynamic
+- Abstraction
+- Encapsulation

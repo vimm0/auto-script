@@ -29,6 +29,7 @@
 - Flask, Git, Beautiful Soup, MySQL
 - agile development environment
 - dynamic, database driven websites
+- Adobe Creative Suite knowledge (i.e. Photoshop)
 
 ###### Experience
 
@@ -54,5 +55,8 @@
   • Understanding of OOP design principles and REST API architecture
   • Proficient understanding of Git
   • Familiarity with Amazon Web Services (AWS). GCP(Google Cloud Platform) experience is a plus
--     Knowledge of CoffeeScript and Backbone.js and React frameworks is a plus
+- Knowledge of CoffeeScript and Backbone.js and React frameworks is a plus
   • Strong unit test and debugging skills
+- Point of Sale and Inventory Software
+
+https://www.dwuser.com/education/content/earning-more-money-as-a-freelance-web-developer-designer/
