@@ -87,10 +87,35 @@
     - single inheritance
     - hierarchical in heritance
     - multilevel inheritance
-  - Aggregation (Has-a relationship)
+
+- Aggregation (Has-a relationship)
+
+- final keyword
+
+  - non-access modifier
+  - final can be
+    - instance variable
+    - method
+    - class variable
+    - local variable
+    - method parameters
+      -final variable is used to create constant variable
+  - final method is used prevent method overriding
+  - final class is used to prevent inheritance
+  - if a class is declared as "final", then child classes cannot be created for that. A final class cannot be given after "extends" keyword.
+  - constructor cannot be declared as final
+  - A blank final variable should be initialized in the constructor
 
 - Polymorphism
-  - static (method overloading)
-  - dynamic
+
+  - types
+
+    - static (method overloading)
+    - dynamic
+
+  - Dynamic Binding(Run time polymorphism)
+    - connecting a method calll to the method body is known as Binding
+    - The binding can be Static and Dynamic
+
 - Abstraction
 - Encapsulation

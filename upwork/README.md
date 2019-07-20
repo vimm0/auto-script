@@ -30,6 +30,8 @@
 - agile development environment
 - dynamic, database driven websites
 - Adobe Creative Suite knowledge (i.e. Photoshop)
+- Odoo development
+- Webscraper
 
 ###### Experience
 

@@ -12,6 +12,9 @@
 
 - class based component
 - state management
+- Lifecycle
+- Conditional Rendering
+- Container / Component Architecture
 
 ## practice
 
