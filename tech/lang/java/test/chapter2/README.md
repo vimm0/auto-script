@@ -8,8 +8,8 @@
 - Java Naming Convention(camelCase)
   - Variable Name: start with lowercase letter(instanceVariable)
   - Constant Name: start with uppercase letter(CONSTANT)
-  - Class Name: start with uppercase letter and should be noun(ClassName)
-  - Method Name: start with lowercase letter and should be verb(getName)
+  - Class Name: start with uppercase letter and should be noun(ClassName) - PascalCase
+  - Method Name: start with lowercase letter and should be verb(getName) - camelCase
   - Interface Name: start with uppercase letter and should be adjective(Interface)
 - Constructor:
 
@@ -117,5 +117,23 @@
     - connecting a method calll to the method body is known as Binding
     - The binding can be Static and Dynamic
 
-- Abstraction
+- Abstraction: is a mechanism of hiding the implementation details from the user and only providing the functionality to the user.
+  - two ways to acheive abstration
+    - abstraction class
+    - interface
+  - Abstract class and Abstract Method
+    - An abstract method is a method that is declared without an implementation
+    - Any class that contains one or more abstract methods, must also be declared with abstract keyword
+    - An abstract class is a class that is declared with abstract keyword.
+    - An abstract class may or may not have all abstract methods.
+    - Abstract class is mostly used for inheritance
 - Encapsulation
+  - is the methodology of binding code and data together into single unit
+  - to achieve encapsulation in java:
+    - declare the variable of a class as private
+    - provide publc setter and getter methods to modify and view the variables values.
+  - advantages of encapsulation
+    - data hiding: user will have no idea about the inner implementation of class
+    - increased flexibility: we can make variables and method read-only or write-only as per requirement
+    - reusability: easy to reuse and easy to change with new requirements
+    - testing is easy
