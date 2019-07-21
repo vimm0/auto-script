@@ -17,4 +17,25 @@ stoicism
 
 don’t entertain negative emotions, there is just no point. Save that energy for the positive ones and feel them all the way. That’s stoicism.
 
+I will tell you how to become rich. Close the doors. Be fearful when other are greedy. Be greedy when others are fearful.
+
+No matter how great the talet or efforts, somethings just take time. You can't produce a baby in one
+month by getting nine women pregnant.
+
+It's better to hang out with people better than you. Pick out associates whose behavior is better than yours and you'll drift in that direction.
+
+You won't keep control of your time, unless you can say 'no'. You can't let other people set your agenda in life.
+
+You don't have to be smarter than the rest. You have to be more disciplined than the rest.
+
+Risk comes from not knowing what you're doing.
+
+The chains of habit are too light to be felt until they are too heavy to be broken.
+
+Enjoy your work and work from whom you admire.
+
+You can't buy what is popular and do well.
+
+Never invest in a business you cannot understand.
+
 https://www.quora.com/What-is-your-one-piece-of-advice-for-having-a-successful-lasting-relationship
