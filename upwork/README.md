@@ -60,5 +60,6 @@
 - Knowledge of CoffeeScript and Backbone.js and React frameworks is a plus
   • Strong unit test and debugging skills
 - Point of Sale and Inventory Software
+- Design and Build e-Leaning website - web LMS applications using Python Django or Open edx apps
 
 https://www.dwuser.com/education/content/earning-more-money-as-a-freelance-web-developer-designer/
