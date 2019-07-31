@@ -24,6 +24,14 @@ Vanilla in slang means:
 
 unexciting, normal, conventional, boring
 
+
+Video
+
+[Network Penetration Testing for Beginner](https://www.youtube.com/watch?v=3Kq1MIfTWCE)
+https://www.youtube.com/watch?v=L6SlXzk3Efo
+
+
+
 ##### Google's Webp Conversion (2019-05-21)
 
 - https://www.archlinux.org/packages/extra/x86_64/libwebp/ (archlinux)
