@@ -30,7 +30,14 @@ Video
 [Network Penetration Testing for Beginner](https://www.youtube.com/watch?v=3Kq1MIfTWCE)
 https://www.youtube.com/watch?v=L6SlXzk3Efo
 
-
+##### ssh with two linux computer
+- connect with lan cable between two computer
+- install, enable, start ssh service
+- also compulsary to add password in linux machine
+- ping ssh with `ping ipaddress`
+- ssh remote linux with `ssh ipaddress`
+- scp -r /file path/to/copy user@ipaddress:/path/to/paste
+- ls -lh  //list path with human readable file size
 
 ##### Google's Webp Conversion (2019-05-21)
 
