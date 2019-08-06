@@ -36,8 +36,8 @@ https://www.youtube.com/watch?v=L6SlXzk3Efo
 - also compulsary to add password in linux machine
 - ping ssh with `ping ipaddress`
 - ssh remote linux with `ssh ipaddress`
-- scp -r /file path/to/copy user@ipaddress:/path/to/paste
-- ls -lh  //list path with human readable file size
+- `scp -r /file path/to/copy user@ipaddress:/path/to/paste`
+- `ls -lh`  //list path with human readable file size
 
 ##### Google's Webp Conversion (2019-05-21)
 
