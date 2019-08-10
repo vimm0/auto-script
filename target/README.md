@@ -1,6 +1,6 @@
 # Target for 2019
 
-- be proficient in C++, java, go and python
+- be proficient in C, C++, java, C#, go and python
 - SWIG( software development tool that connects programs written in C and C++ with a variety of high-level programming languages) [SWIG](http://www.swig.org/)
 
 ## Reference
