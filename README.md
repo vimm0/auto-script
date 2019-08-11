@@ -24,8 +24,14 @@ Vanilla in slang means:
 
 unexciting, normal, conventional, boring
 
+##### Vim configuration
+- create ~/.vimrc
+	- set mouse=a # helps in mouse action
 
 ##### Vim useful shortcuts
+- copy from vim to outside vim
+	- make sure `set mouse=a` is enabled in `.vimrc`
+	- while copying make sure to press shift and then `ctrl+shift+c` to copy
 - Split screen
 	- Open file
 		- :Sex /path/to/file
