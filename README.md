@@ -25,7 +25,37 @@ Vanilla in slang means:
 unexciting, normal, conventional, boring
 
 
-Video
+##### Vim useful shortcuts
+- Split screen
+	- Open file
+		- :Sex /path/to/file
+		- :Vex /path/to/file
+	- navigate between screen
+		- ctrl+w+v
+		- ctrl+w+l
+		- ctrl+w+h
+		- ctrl+w+s
+		- ctrl+w+j
+		- ctrl+w+k
+	- Change screen size
+		- ctrl+w+">" 
+		- ctrl+w+"<"
+		- ctrl+w+"+"
+		- ctrl+w+"="
+
+- Copy/Paste 
+	- enter to visual mode with ctrl+v
+	- select the block up to which you want to copy and move cursor with h,j,k,l
+	- cut (with d) or copy (with y)
+	- paste with either p or P
+- Editing
+	- undo/redo
+		- u: undo last change
+		- ctrl+r
+- reference
+	- https://linuxhint.com/how-to-use-vim-split-screen/
+
+##### Video
 
 [Network Penetration Testing for Beginner](https://www.youtube.com/watch?v=3Kq1MIfTWCE)
 https://www.youtube.com/watch?v=L6SlXzk3Efo
