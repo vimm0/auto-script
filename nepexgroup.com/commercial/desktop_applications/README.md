@@ -50,6 +50,6 @@
 - why did we choose django for a desktop application?
     - future proof(cloud computing)
     - faster writing in python than C++
-    - html can look beetter than normal microsof dialog boxes
+    - html can look better than normal microsoft dialog boxes
     - network compatible
 - [Thomas Turner - Using Django in a desktop application, at DjangoCon Europe 2015, Cardiff](https://vimeo.com/133547028)

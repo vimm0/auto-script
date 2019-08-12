@@ -71,6 +71,15 @@ find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 
 ```
 
+##### Types of Application development
+- Standalone business application: This is your typical application, and is like applications like Word, Excel, Outlook and more. Anything that can be used by someone to make their work more efficient would fall into this category.
+- Client-Server Application: This is an application that runs on the computer but accesses information from a remote server.
+- Collaborative Application: This is an application that is designed to help people involved in a common task. This is a way for people to work together at once, using the same application on each of their computers.
+- Utilities and Plug-Ins: Anything that can help a computer or browser run more efficiently would fall into this category.
+- System Apps and Services: Anything that allows the computer to run various other applications would fall into this category.
+- Multimedia Applications: This is an application that plays podcasts, movies, video, music and more. iTunes is a good example of this.
+- Network Applications: Anything that runs over a network falls into this category.
+
 ##### ssh with two linux computer
 - connect with lan cable between two computer
 - install, enable, start ssh service
