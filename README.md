@@ -66,6 +66,11 @@ unexciting, normal, conventional, boring
 [Network Penetration Testing for Beginner](https://www.youtube.com/watch?v=3Kq1MIfTWCE)
 https://www.youtube.com/watch?v=L6SlXzk3Efo
 
+```
+find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
+
+```
+
 ##### ssh with two linux computer
 - connect with lan cable between two computer
 - install, enable, start ssh service
