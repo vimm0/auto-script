@@ -15,6 +15,10 @@
 - [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 - [Graphviz](tech/lang/python/README.md)
 
+#### Android development Roadmap 2019
+- https://github.com/MindorksOpenSource/android-developer-roadmap
+- https://medium.com/mindorks/learning-android-development-in-2019-a-practical-guide-ddc71e008696
+
 Wipe out all the data from pendrive
 `sudo dd if=/dev/zero of=/dev/sdb1 bs=1k count=2048`
 
