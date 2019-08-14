@@ -19,6 +19,9 @@
 - https://github.com/MindorksOpenSource/android-developer-roadmap
 - https://medium.com/mindorks/learning-android-development-in-2019-a-practical-guide-ddc71e008696
 
+#### Electon app with python
+- https://medium.com/@abulka/electron-python-4e8c807bfa5e
+
 Wipe out all the data from pendrive
 `sudo dd if=/dev/zero of=/dev/sdb1 bs=1k count=2048`
 
