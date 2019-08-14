@@ -10,3 +10,5 @@
 
 ##### start guake at start
 `cp /usr/share/applications/guake.desktop /etc/xdg/autostart/`
+
+After you copied fonts it's very important to call the command  `sudo fc-cache -fv` otherwise wine will not see these fonts (of will see, but after restarting of your system)
