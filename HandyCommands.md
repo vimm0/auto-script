@@ -8,3 +8,6 @@ mount -o remount,size=4G,noatime /tmp
 
 ##### Remove rood password (use sudo without password) 
 sudo passwd -u root
+
+##### start guake at start
+cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
