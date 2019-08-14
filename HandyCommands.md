@@ -3,11 +3,10 @@
 `youtube-dl --extract-audio -i --audio-format mp3 --audio-quality 0 --no-part --no-mtime --embed-thumbnail --add-metadata <video URL>`
 
 ##### No space left on device archlinux
-mount -o remount,size=4G,noatime /tmp
-
+`mount -o remount,size=4G,noatime /tmp`
 
 ##### Remove rood password (use sudo without password) 
-sudo passwd -u root
+`sudo passwd -u root`
 
 ##### start guake at start
-cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
+`cp /usr/share/applications/guake.desktop /etc/xdg/autostart/`
