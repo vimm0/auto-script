@@ -1,3 +1,14 @@
+#### Android studio IDE shortcut for flutter
+- `Alt + Enter`
+- `Ctrl + B`
+- `Ctrl+Shift+I`
+- `Ctrl+W`
+- `Ctrl+Alt+L`
+- `Shift + F6`
+- `Ctrl+Alt+O`
+- `Ctrl+Shift+A`
+- https://medium.com/flutter-community/flutter-ide-shortcuts-for-faster-development-2ef45c51085b
+
 ### Genymotion Installation
 In Archlinux, copy url of snapshot from AUR 
 
