@@ -15,6 +15,10 @@
 - [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 - [Graphviz](tech/lang/python/README.md)
 
+[Why do we need test code](https://quintagroup.com/cms/python/python-unit-testing)
+
+Andrew Mead - Testing Nodejs Application
+
 #### Test driven approach
 The best way to do code testing is by using Test-Driven Development (TDD).
 
