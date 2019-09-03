@@ -15,6 +15,23 @@
 - [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 - [Graphviz](tech/lang/python/README.md)
 
+#### Test driven approach
+The best way to do code testing is by using Test-Driven Development (TDD).
+
+This is how it works:
+
+*Write a test.* – The test will flesh out some functionality in your app.
+
+*run the test* – The test should fail, since there's no code to make it pass.
+
+*Write the code* – To make the test pass
+
+*Run the test* – If it passes, you are confident that the code you've written meets the test requirements
+
+*Refactor code* – Remove duplication, prune large objects and make the code more readable. Re-run the tests every time you refactor the code
+
+*Repeat* – That's it!
+
 #### Android development Roadmap 2019
 - https://github.com/MindorksOpenSource/android-developer-roadmap
 - https://medium.com/mindorks/learning-android-development-in-2019-a-practical-guide-ddc71e008696
