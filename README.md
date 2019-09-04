@@ -15,7 +15,8 @@
 - [Secret of Javascript Ninja](./tipsandtricks/js/secretofjavascriptninja)
 - [Graphviz](tech/lang/python/README.md)
 
-[Why do we need test code](https://quintagroup.com/cms/python/python-unit-testing)
+- [Why do we need test code](https://quintagroup.com/cms/python/python-unit-testing)
+- [The Django Test Driven Development Cookbook - Singapore Djangonauts](https://www.youtube.com/watch?v=41ek3VNx_6Q)
 
 Andrew Mead - Testing Nodejs Application
 
