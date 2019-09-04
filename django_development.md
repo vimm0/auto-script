@@ -28,5 +28,6 @@
 - [The Django Test Driven Development Cookbook - Singapore Djangonauts](https://www.youtube.com/watch?v=41ek3VNx_6Q)
 - [Testing and Django](https://pyvideo.org/pycon-us-2012/testing-and-django.html)
 - [A Guide to Performance Testing and Optimization With Python and Django](https://www.toptal.com/python/performance-optimization-testing-django)
+    - [Profile with django-silk](https://github.com/jazzband/django-silk)
 - [Tips for Building High-Quality Django Apps at Scale](https://medium.com/@DoorDash/tips-for-building-high-quality-django-apps-at-scale-a5a25917b2b5)
 #### [Read relase checklist](./release_checklist.md)
