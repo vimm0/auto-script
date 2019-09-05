@@ -31,5 +31,6 @@
     - [Profile with django-silk](https://github.com/jazzband/django-silk)
 - [Tips for Building High-Quality Django Apps at Scale](https://medium.com/@DoorDash/tips-for-building-high-quality-django-apps-at-scale-a5a25917b2b5)
 - [Testing and Django](https://pyvideo.org/pycon-us-2012/testing-and-django.html)
+- [Testing ways](./test_doing.md)
 
 #### [Read relase checklist](./release_checklist.md)
