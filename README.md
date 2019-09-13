@@ -16,6 +16,16 @@
 - [Graphviz](tech/lang/python/README.md)
 - [Django Software Development](./django_development.md)
 
+```bash
+# debugging to specific point in code in python code
+# add specific code
+import pdb
+pdb.set_trace
+# and run
+py.test --capture=no
+
+```
+
 Andrew Mead - Testing Nodejs Application
 
 #### Test driven approach
