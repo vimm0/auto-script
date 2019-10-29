@@ -10,4 +10,4 @@
         and Linux has become ubiquitous to the point that the duo is often referred  to as just "Linux" in short, or, less 
         frequently, GNU/Linux. (see [the GNU/Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy))
         - [source](https://en.wikipedia.org/wiki/GNU)
-    - bash / Bourne Again Shell: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+    - [bash / Bourne Again Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
