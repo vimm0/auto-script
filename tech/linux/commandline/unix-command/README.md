@@ -1,50 +1,13 @@
-# Process
+# THE LINUX COMMAND LINE (Book)
 
-### List All Processes
-- `ps`
-- `ps -A`
-- `ps au`
-
-### Print Process Tree
-- `ps -e --forest`
-- `ps -f --forest -C sshd`
-
-### Specify Custom Output Format
-- ` ps -eo pid,ppid,user,cmd`
-
-### Troubleshoot Linux System Performance
-- `ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head`
-
-### Print Security Information
-- `ps --context`
-- `ps -eo  euser,ruser,suser,fuser,f,comm,label`
-
-### Perform Real-time Process Monitoring Using Watch Utility
-
-- `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'`
-# Users and Group
-
-Add user
-```bash
-$ useradd [options] username
-$ sudo passwd olivia
-
-$ sudo useradd -m olivia -p PASSWORD
-```
-Create Group and add user to that group
-```bash
-$ groupadd [docker] 
-$ gpasswd -a [user] [docker] 
-```
-equivalent to
-```bash
-$ sudo usermod -a -G [docker] [user]
-```
-Re-login after executing command
-- [replace docker group with your group]
-- [replace user with your username]
-
-How to know user in a group
-```bash
-$ grep [docker] /etc/group
-```
+## PART 1: LEARNING THE SHELL
+- What Is the Shell?
+    - [GNU Project](https://www.gnu.org/home.en.html)
+        - The GNU project includes an [operating system kernel](https://en.wikipedia.org/wiki/Operating_system_kernel), 
+        [GNU Hurd ](https://en.wikipedia.org/wiki/GNU_Hurd), which was the original focus of the Free Software Foundation (FSF). 
+        However, given the Hurd kernel's status as not yet production-ready, non-GNU kernels, most popularly the 
+        [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), can also be used with GNU software. The combination of GNU 
+        and Linux has become ubiquitous to the point that the duo is often referred  to as just "Linux" in short, or, less 
+        frequently, GNU/Linux. (see [the GNU/Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy))
+        - [source](https://en.wikipedia.org/wiki/GNU)
+    - bash / Bourne Again Shell: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
