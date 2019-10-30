@@ -5,6 +5,7 @@
 - `free`: Display amount of free and used memory in the system
 - `cd` : change the working directory
 - `ls` : list directory contents
+- `gdb` : The GNU Debugger
 
 ## Navigations
 - `pwd` : print name of current/working directory

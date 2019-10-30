@@ -20,3 +20,7 @@
         presents a login prompt into which we can enter our username and password.
         To switch from one virtual console to another, press ALT and F1 – F6. To return
         to the graphical desktop, press ALT -F7.
+
+
+## Findings
+    - AT&T Syntax(unreadable), intel syntax(readable) (Assembly language)
