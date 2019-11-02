@@ -9,7 +9,7 @@
 - `file` : determine file type
 - `less` : view file content (opposite of more)
 
-## System Information
+## SYSTEM INFORMATION
 - `uname` : print system information
     - #### shortcuts
         - `uname -a`
@@ -25,7 +25,7 @@
 - `w` : Show who is logged on and what they are doing.
 - `whoami` : print effective userid
 
-## Hardware Information
+## HARDWARE INFORMATION
 - `dmesg` : print or control the kernel ring buffer
 - `cat /proc/cpuinfo`: Display CPU information
 - `cat /proc/meminfo` : Display memory information
