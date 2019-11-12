@@ -271,6 +271,11 @@ For installing bundler system-wide. To do this, you need to pass --no-user-insta
 - `npm install -g serve`
 - `serve -s dist`
 
+## You don't have /home/<user>/.gem/ruby/2.6.0/bin in your PATH
+> gem executables will not run.
+- You need to have Ruby and Compass installed and in your system PATH for this task to work.
+    - `export PATH="/home/ryan1/.gem/ruby/1.9.1/bin:$PATH"`
+
 ### VSCODE
 
 When commenting a line, move the cursor to the next line
