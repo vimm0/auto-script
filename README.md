@@ -22,6 +22,8 @@
 import pdb
 pdb.set_trace
 # and run
+py.test
+or
 py.test --capture=no
 
 ```
