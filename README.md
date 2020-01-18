@@ -25,6 +25,7 @@ pdb.set_trace
 py.test --capture=no
 
 ```
+- [Gangs of Four](https://legacy.python.org/workshops/1997-10/proceedings/savikko.html#gof)
 
 Andrew Mead - Testing Nodejs Application
 
