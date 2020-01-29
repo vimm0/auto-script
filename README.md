@@ -30,7 +30,7 @@ py.test --capture=no
 - [Gangs of Four](https://legacy.python.org/workshops/1997-10/proceedings/savikko.html#gof)
 - [python patterns](https://www.toptal.com/python/python-design-patterns)
 - https://sourcemaking.com/design_patterns
-
+-[Tracing code execution django python](https://www.saltycrane.com/blog/2011/06/notes-tracing-code-execution-django-python/)
 Andrew Mead - Testing Nodejs Application
 
 #### Test driven approach
