@@ -27,6 +27,11 @@ or
 py.test --capture=no
 
 ```
+### pip is not recognized in windows
+- echo %PATH%
+- setx PATH "%PATH%;C:/path-upto-scripts"
+
+## Design Patterns
 - [Gangs of Four](https://legacy.python.org/workshops/1997-10/proceedings/savikko.html#gof)
 - [python patterns](https://www.toptal.com/python/python-design-patterns)
 - https://sourcemaking.com/design_patterns
