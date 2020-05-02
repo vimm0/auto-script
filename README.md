@@ -27,6 +27,11 @@ or
 py.test --capture=no
 
 ```
+```
+# Enable two monitor in i3
+xrandr --output HDMI1 --auto --right-of eDP1 
+```
+
 ### pip is not recognized in windows
 - echo %PATH%
 - setx PATH "%PATH%;C:/path-upto-scripts"
